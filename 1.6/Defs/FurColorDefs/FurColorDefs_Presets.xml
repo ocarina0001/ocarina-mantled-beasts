@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <MantledBeasts.FurColorDef Name="OCARINA_FurPresetBeastBase" Abstract="True">
+        <blacklistPrimary>true</blacklistPrimary>
+        <blacklistSecondary>true</blacklistSecondary>
+    </MantledBeasts.FurColorDef>
+
+
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_TestBeast</defName>
+        <primaryColor>(108,79,63)</primaryColor>
+        <secondaryColor>(40,79,63)</secondaryColor>
+        <selectionWeight>1.5</selectionWeight>
+    </MantledBeasts.FurColorDef>
+
+</Defs>

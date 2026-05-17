@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <GeneDef Name="OCARINA_MantledBeastsFurBase" Abstract="True">
+        <geneClass>MantledBeasts.FurGene</geneClass>
+        <biostatCpx>0</biostatCpx>
+        <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <iconColor>(0.75,0.75,0.75)</iconColor>
+        <exclusionTags>
+            <li>Skin</li>
+            <li>SkinColorOverride</li>
+            <li>Fur</li>
+            <li>BeardStyle</li>
+            <li>Bodies</li>
+            <li>Body</li>
+        </exclusionTags>
+        <hairTagFilter>
+            <whitelist>false</whitelist>
+            <tags>
+                <li>Shaved</li>
+            </tags>
+        </hairTagFilter>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <skinIsHairColor>false</skinIsHairColor>
+        <tattoosVisible>true</tattoosVisible>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_Fur</nodeClass>
+                <workerClass>PawnRenderNodeWorker_Fur</workerClass>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <baseLayer>5</baseLayer>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <colorType>Skin</colorType>
+                <parentTagDef>Body</parentTagDef>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="OCARINA_MantledBeastsFurBase">
+        <defName>OCARINA_MantledBeastsFur</defName>
+        <label>mantled beasts fur</label>
+        <labelShortAdj>mantled beasts furred</labelShortAdj>
+        <description>Carriers of this gene appear to be mantled beasts.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearFur</iconPath>
+        <skinColorOverride>(255,255,255)</skinColorOverride>
+        <forcedHeadTypes>
+            <li>OCARINA_MantledBeasts_Average_Male</li>
+            <li>OCARINA_MantledBeasts_Average_Female</li>
+        </forcedHeadTypes>
+        <fur>OCARINA_MantledBeasts</fur>
+        <modExtensions>
+            <li Class="MantledBeasts.FurColors">
+                <allowedFurColors>
+                    <li>OCARINA_FurPreset_TestBeast</li>
+                </allowedFurColors>
+            </li>
+            <li Class="MantledBeasts.ColorMasks">
+                <allowedColorMasks>
+                    <li>
+                        <maskName>Default</maskName>
+                        <selectionWeight>2.0</selectionWeight>
+                    </li>
+                    <li>
+                        <maskName>Lines</maskName>
+                        <selectionWeight>1.0</selectionWeight>
+                    </li>
+                    <li>
+                        <maskName>Split</maskName>
+                        <selectionWeight>0.2</selectionWeight>
+                    </li>
+                </allowedColorMasks>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+</Defs>

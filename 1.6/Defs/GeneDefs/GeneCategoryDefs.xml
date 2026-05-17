@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneCategoryDef>
+        <defName>OCARINA_Cosmetic_MantledBeasts</defName>
+        <label>cosmetic - mantled beasts</label>
+        <displayPriorityInXenotype>279</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+</Defs>

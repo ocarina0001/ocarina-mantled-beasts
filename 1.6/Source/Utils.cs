@@ -1,0 +1,97 @@
+﻿using HarmonyLib;
+using System.Globalization;
+using UnityEngine;
+using Verse;
+
+namespace MantledBeasts
+{
+    [HotSwappable]
+    [StaticConstructorOnStartup]
+    public static class Utils
+    {
+        static Utils()
+        {
+            new Harmony("MantledBeastsMod").PatchAll();
+        }
+
+        //oca - all of the below code with all of the comments is in the original anthrosonae source; highly indicitive of ai coding
+        // due to the way the comments look and the lack of similar comments elsewhere.
+        // that's really fucking funny,  i've never expected taran of all people to use ai for code so seemingly basic
+        // unless, of course, it wasn't taran? but i'm speculating at that point and just rambling into a comment for
+        // nobody to come across. oh welll.
+        // if anyone reads this dm me lol it'll be funny i think
+
+        // Calculate the brightness level (0 to 100) from a color
+        public static int CalculateBrightnessLevel(Color color)
+        {
+            float luminance = 0.2126f * color.r + 0.7152f * color.g + 0.0722f * color.b;
+            return Mathf.RoundToInt(luminance * 100);
+        }
+
+        // Set the color to match the target brightness level (0 to 100)
+        public static Color SetBrightness(Color color, int targetBrightnessLevel)
+        {
+            // Clamp the target brightness level between 0 and 100
+            targetBrightnessLevel = Mathf.Clamp(targetBrightnessLevel, 0, 100);
+
+            // Calculate the current brightness level of the original color
+            int currentBrightnessLevel = CalculateBrightnessLevel(color);
+
+            // If the current brightness matches the target, return the original color
+            if (currentBrightnessLevel == targetBrightnessLevel)
+            {
+                return color;
+            }
+
+            // Normalize the brightness levels to a range of 0 to 1
+            float targetLuminance = targetBrightnessLevel / 100f;
+            float currentLuminance = currentBrightnessLevel / 100f;
+
+            // Calculate the adjustment factor
+            float adjustmentFactor = targetLuminance / currentLuminance;
+
+            // Apply the adjustment to the original color's RGB channels
+            Color adjustedColor = new Color(
+                color.r * adjustmentFactor,
+                color.g * adjustmentFactor,
+                color.b * adjustmentFactor,
+                color.a // Preserve the original alpha
+            );
+
+            // Ensure the adjusted color stays within valid color bounds
+            return new Color(
+                Mathf.Clamp01(adjustedColor.r),
+                Mathf.Clamp01(adjustedColor.g),
+                Mathf.Clamp01(adjustedColor.b),
+                adjustedColor.a
+            );
+        }
+
+
+        public static bool TryGetColorFromHex(string hex, out Color color)
+        {
+            color = Color.white;
+            if (hex.StartsWith("#"))
+            {
+                hex = hex.Substring(1);
+            }
+
+            if (hex.Length != 6 && hex.Length != 8)
+            {
+                return false;
+            }
+
+            int r = int.Parse(hex.Substring(0, 2), NumberStyles.HexNumber);
+            int g = int.Parse(hex.Substring(2, 2), NumberStyles.HexNumber);
+            int b = int.Parse(hex.Substring(4, 2), NumberStyles.HexNumber);
+            int a = 255;
+            if (hex.Length == 8)
+            {
+                a = int.Parse(hex.Substring(6, 2), NumberStyles.HexNumber);
+            }
+
+            color = GenColor.FromBytes(r, g, b, a);
+            return true;
+        }
+    }
+}

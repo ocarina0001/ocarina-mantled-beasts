@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <XenotypeDef Name="OCARINA_MantledBeastsBase" Abstract="True">
+        <displayPriority>999</displayPriority>
+        <!-- <modExtensions>
+            <li Class="Anthrosonae.XenotypeExtension">
+                <groupName>Anthrosona</groupName>
+                <groupDescription>Anthrosonae are a category of xenogrms designed to resemble an anthropomorphized animal. While they look quite different, generally they are functionally identical to baseliner humans.</groupDescription>
+                <groupIcon>UI/Icons/Xenotypes/Anthrosonae</groupIcon>
+            </li>
+        </modExtensions> -->
+    </XenotypeDef>
+
+
+    <XenotypeDef ParentName="OCARINA_MantledBeastsBase">
+        <defName>OCARINA_MantledBeasts</defName>
+        <label>mantled beast</label>
+        <description>placeholder</description>
+        <descriptionShort>placeholder</descriptionShort>
+        <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthrobear</iconPath>
+        <genes>
+            <li>OCARINA_MantledBeastsFur</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>
