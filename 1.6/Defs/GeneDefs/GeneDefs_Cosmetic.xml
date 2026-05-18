@@ -6,7 +6,7 @@
         <biostatCpx>0</biostatCpx>
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <displayOrderInCategory>111</displayOrderInCategory>
-        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <canGenerateInGeneSet>true</canGenerateInGeneSet>
         <iconColor>(0.75,0.75,0.75)</iconColor>
         <exclusionTags>
             <li>Skin</li>
@@ -45,9 +45,9 @@
 
     <GeneDef ParentName="OCARINA_MantledBeastsFurBase">
         <defName>OCARINA_MantledBeastsFur</defName>
-        <label>mantled beast fur</label>
-        <labelShortAdj>mantled beast furred</labelShortAdj>
-        <description>Carriers of this gene appear to be mantled beasts.</description>
+        <label>va'ji fur</label>
+        <labelShortAdj>va'ji furred</labelShortAdj>
+        <description>Carriers of this gene appear to grow a specific beast-like fur, that of a Va'ji.</description>
         <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearFur</iconPath>
         <skinColorOverride>(255,255,255)</skinColorOverride>
         <forcedHeadTypes>
@@ -78,13 +78,16 @@
                 </allowedColorMasks>
             </li>
         </modExtensions>
+        <statOffsets>
+            <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+        </statOffsets>
     </GeneDef>
 
     <GeneDef Name="OCARINA_MantledBeastsEarsBase" ParentName="GeneEarsBase" Abstract="True">
         <biostatCpx>0</biostatCpx>
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <displayOrderInCategory>222</displayOrderInCategory>
-        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <canGenerateInGeneSet>true</canGenerateInGeneSet>
         <exclusionTags>
             <li>Ears</li>
         </exclusionTags>
@@ -92,8 +95,8 @@
 
     <GeneDef ParentName="OCARINA_MantledBeastsEarsBase">
         <defName>OCARINA_MantledBeastsEars</defName>
-        <label>mantled beast ears</label>
-        <description>Carriers of this gene have large, beast-like ears.</description>
+        <label>va'ji ears</label>
+        <description>Carriers of this gene have large, Va'ji ears.</description>
         <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearEars</iconPath>
         <renderNodeProperties>
             <li>
@@ -107,8 +110,14 @@
                 <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
                     <defaultData>
-                        <layer>70</layer>
+                        <layer>80</layer>
                     </defaultData>
+                    <dataNorth>
+                        <layer>-70</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <layer>-70</layer>
+                    </dataSouth>
                 </drawData>
             </li>
             <li>
@@ -124,9 +133,18 @@
                     <defaultData>
                         <layer>-70</layer>
                     </defaultData>
+                    <dataNorth>
+                        <layer>-70</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <layer>-70</layer>
+                    </dataSouth>
                 </drawData>
             </li>
         </renderNodeProperties>
+        <statOffsets>
+            <ComfyTemperatureMax>3</ComfyTemperatureMax>
+        </statOffsets>
     </GeneDef>
 
     <GeneDef Name="OCARINA_MantledBeastsTailBase" ParentName="GeneTailBase" Abstract="True">
@@ -134,7 +152,7 @@
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <iconColor>(0.75,0.75,0.75)</iconColor>
         <displayOrderInCategory>333</displayOrderInCategory>
-        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <canGenerateInGeneSet>true</canGenerateInGeneSet>
         <randomChosen>true</randomChosen>
         <exclusionTags>
             <li>Tail</li>
@@ -143,8 +161,8 @@
 
     <GeneDef ParentName="OCARINA_MantledBeastsTailBase">
         <defName>OCARINA_MantledBeastsTail</defName>
-        <label>mantled beast tail</label>
-        <description>Carriers of this gene have a beast-like tail.</description>
+        <label>va'ji tail</label>
+        <description>Carriers of this gene have a Va'ji tail.</description>
         <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearTail</iconPath>
         <renderNodeProperties>
             <li>
@@ -156,26 +174,29 @@
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
-                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <scaleOffsetByBodySize>false</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0,0,-0.42)</offset>
+                        <offset>(0.05,0,-0.80)</offset>
                         <layer>90</layer>
                     </dataNorth>
                     <dataSouth>
                         <offset>(-0.1,0,-0.18)</offset>
                     </dataSouth>
                     <dataEast>
-                        <offset>(-0.65,0,-0.29)</offset>
+                        <offset>(-0.55,0,-0.40)</offset>
                     </dataEast>
                     <dataWest>
-                        <offset>(0.65,0,-0.29)</offset>
+                        <offset>(0.55,0,-0.40)</offset>
                     </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
+        <statOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </statOffsets>
     </GeneDef>
 
 </Defs>

@@ -2,6 +2,13 @@ https://mantledbeasts.carrd.co/
 Va'ji
 "The Spark" faction leader name
 
+todo:
+- entire xenotype complete and functional (reimport all masks at higher res and make sure there's no small minor bugs or issues)
+- mantles (mantles require c# to try and display mood, needs to use similar custom mask technology as xenotypes? alternatively look into using render nodes i guess? render nodes might be easier)
+- mantlegear (apparel that applies a hediff that checks if the pawn has the mantled beast tail)
+- faction (give them generally technocratic type, generally kind and always trying to remain neutral)
+
+
 Apparel:
 - Visor / Mantle: Made for Mantled Beasts, improves the hearing, sight, manipulation, and talking of Beasts who wear it, but has no effect on non-Beast pawns as they visor simply doesn't fit. (requires C# to check the pawn's genes on equip, and more C# to display the wearer's mood via changing masks). Can by dyed to change the mask's color. Should come in a few varieties: Normal, Horned, Industrial, Technical, Armored, Tribal, Archotech. Should be genetically sad if not wearing them. Should make some styles for Ideology.
 - Mantlegear: Includes Chest Plate and Body Strips, comes in a few varieties that provide differing benefits and improves manipulation and moving to any pawn wearing them as they can generally be helpful for anyone. Applies a hediff to Beasts to display the tail strips. Varieties should include: Normal, Industrial, Laborer, Surgeon, Armored, Tribal, Archotech. Should be genetically sad if not wearing them.
@@ -33,10 +40,10 @@ Genes:
 - Reduced fertility (Alpha Genes) +1
 - Frail back (Alpha Genes) +1
 - Delicate +3
-- Poor eyesight (Custom, lowers Sight in both eyes to 0.45x while applying same accuracy debuffs as Nearsighted) +4
+- Poor eyesight (Custom, lowers Sight in both eyes to 0.35x while applying same accuracy debuffs as Nearsighted) +4
 (compatibility)
 - Canine genitalia (RJW Genes)
-- Marine genitalia (RJW Genes)
+- Marine genitalia (RJW Genes) (doesn't exist :c )
 
 Credits:
 - Honeymoss, the creator of Mantled Beasts

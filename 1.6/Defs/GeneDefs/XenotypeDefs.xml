@@ -10,19 +10,33 @@
                 <groupIcon>UI/Icons/Xenotypes/Anthrosonae</groupIcon>
             </li>
         </modExtensions> -->
+        <inheritable>true</inheritable>
     </XenotypeDef>
 
 
     <XenotypeDef ParentName="OCARINA_MantledBeastsBase">
         <defName>OCARINA_MantledBeasts</defName>
-        <label>mantled beast</label>
-        <description>placeholder</description>
-        <descriptionShort>placeholder</descriptionShort>
+        <label>va'ji</label>
+        <description>Va'ji (pronounced va-hee) are quite a unique xenotype, commonly known as "mantled beasts" for their beastial apperance and mantle visor, their genes allow them to not only survive but thrive in dangerously hot conditions. There is no known origin for the xenotype's creation, but the earliest documentation pins them to the desert rimworld Aegis, outside of colonized space; soon after, Va'ji spread quite widely amongst the stars and now hold quite high positions in numerous coreworlds.</description>
+        <descriptionShort>Va'ji (pronounced va-hee) are quite a unique xenotype, commonly known as "mantled beasts" for their beastial apperance and mantle visor, their genes allow them to not only survive but thrive in dangerously hot conditions</descriptionShort>
         <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthrobear</iconPath>
         <genes>
             <li>OCARINA_MantledBeastsFur</li>
             <li>OCARINA_MantledBeastsEars</li>
             <li>OCARINA_MantledBeastsTail</li>
+            <li>OCARINA_MantledBeastsPaws</li>
+            <li>OCARINA_MantledBeastsEyesight</li>
+            <li>MaxTemp_LargeIncrease</li>
+            <li>AG_Digitigrade</li>
+            <li>AG_LargerBodySize</li>
+            <li>AptitudeStrong_Intellectual</li>
+            <li>AptitudeStrong_Mining</li>
+            <li>Libido_Low</li>
+            <li>AG_SlowGestation</li>
+            <li>AG_ReducedFertile</li>
+            <!-- <li>AG_FrailBack</li> effects merged into paws -->
+            <li>Delicate</li>
+            <li MayRequire="vegapnk.rjw.genes">rjw_genes_canine_genitalia</li>
         </genes>
     </XenotypeDef>
 
