@@ -2,7 +2,7 @@
 <Defs>
 
     <XenotypeDef Name="OCARINA_MantledBeastsBase" Abstract="True">
-        <displayPriority>999</displayPriority>
+        <displayPriority>962</displayPriority>
         <!-- <modExtensions>
             <li Class="Anthrosonae.XenotypeExtension">
                 <groupName>Anthrosona</groupName>
@@ -21,6 +21,8 @@
         <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthrobear</iconPath>
         <genes>
             <li>OCARINA_MantledBeastsFur</li>
+            <li>OCARINA_MantledBeastsEars</li>
+            <li>OCARINA_MantledBeastsTail</li>
         </genes>
     </XenotypeDef>
 

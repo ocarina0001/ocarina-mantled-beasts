@@ -4,7 +4,7 @@
     <GeneCategoryDef>
         <defName>OCARINA_Cosmetic_MantledBeasts</defName>
         <label>cosmetic - mantled beasts</label>
-        <displayPriorityInXenotype>279</displayPriorityInXenotype>
+        <displayPriorityInXenotype>271</displayPriorityInXenotype>
     </GeneCategoryDef>
 
 </Defs>

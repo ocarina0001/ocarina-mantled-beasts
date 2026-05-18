@@ -5,7 +5,7 @@
         <geneClass>MantledBeasts.FurGene</geneClass>
         <biostatCpx>0</biostatCpx>
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
-        <displayOrderInCategory>100</displayOrderInCategory>
+        <displayOrderInCategory>111</displayOrderInCategory>
         <canGenerateInGeneSet>false</canGenerateInGeneSet>
         <iconColor>(0.75,0.75,0.75)</iconColor>
         <exclusionTags>
@@ -45,8 +45,8 @@
 
     <GeneDef ParentName="OCARINA_MantledBeastsFurBase">
         <defName>OCARINA_MantledBeastsFur</defName>
-        <label>mantled beasts fur</label>
-        <labelShortAdj>mantled beasts furred</labelShortAdj>
+        <label>mantled beast fur</label>
+        <labelShortAdj>mantled beast furred</labelShortAdj>
         <description>Carriers of this gene appear to be mantled beasts.</description>
         <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearFur</iconPath>
         <skinColorOverride>(255,255,255)</skinColorOverride>
@@ -78,6 +78,104 @@
                 </allowedColorMasks>
             </li>
         </modExtensions>
+    </GeneDef>
+
+    <GeneDef Name="OCARINA_MantledBeastsEarsBase" ParentName="GeneEarsBase" Abstract="True">
+        <biostatCpx>0</biostatCpx>
+        <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
+        <displayOrderInCategory>222</displayOrderInCategory>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <exclusionTags>
+            <li>Ears</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OCARINA_MantledBeastsEarsBase">
+        <defName>OCARINA_MantledBeastsEars</defName>
+        <label>mantled beast ears</label>
+        <description>Carriers of this gene have large, beast-like ears.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearEars</iconPath>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/MantledBeasts/HeadAttachments/Ears/MantledBeastEars</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/MantledBeasts/HeadAttachments/Ears/MantledBeastEarsBack</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>-70</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef Name="OCARINA_MantledBeastsTailBase" ParentName="GeneTailBase" Abstract="True">
+        <biostatCpx>0</biostatCpx>
+        <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
+        <iconColor>(0.75,0.75,0.75)</iconColor>
+        <displayOrderInCategory>333</displayOrderInCategory>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <randomChosen>true</randomChosen>
+        <exclusionTags>
+            <li>Tail</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OCARINA_MantledBeastsTailBase">
+        <defName>OCARINA_MantledBeastsTail</defName>
+        <label>mantled beast tail</label>
+        <description>Carriers of this gene have a beast-like tail.</description>
+        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearTail</iconPath>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/MantledBeasts/BodyAttachments/Tails/MantledBeastTail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Hair</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0,0,-0.42)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.65,0,-0.29)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.65,0,-0.29)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
     </GeneDef>
 
 </Defs>
