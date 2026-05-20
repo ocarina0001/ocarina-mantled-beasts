@@ -10,7 +10,6 @@ todo:
 - proper style bench support and being able to choose mask (in dev mode as well)
 - more furcolordefs
 - vaji mushrooms (growable, sensitive, definitely requires c# for the water and underground requirements. mushroom gas should behave similar to rot stink)
-- aegiscite (easy new ore and item, just make it all types and only spawn it via meteors or traders. should be twice as durable as steel, with improved sharp but worse blunt. great insulation as well. it should be very rare)
 fixes:
 - split east/west textures not being proper (both sides are one color)
 - split tail mask is incorrect

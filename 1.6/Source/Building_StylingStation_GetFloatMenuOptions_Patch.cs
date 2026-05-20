@@ -15,8 +15,6 @@ namespace MantledBeasts
             foreach (var option in options)
             {
                 yield return option;
-                if (ModsConfig.IsActive("atk.anthrosonae")) // this just lets anthrosonae do its own style changer stuff
-                    continue;
                 if (option.Label == "ChangeStyle".Translate().CapitalizeFirst())
                 {
                     FurGene furGene = GetFurGene(selPawn);
