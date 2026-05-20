@@ -34,7 +34,7 @@
     <HediffDef>
         <defName>OCARINA_MantledBeastsEyesight</defName>
         <label>poor eyesight</label>
-        <description></description>
+        <description>Thin and narrow eyes to keep sand out, at the cost of reduced vision.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
         <scenarioCanAdd>false</scenarioCanAdd>

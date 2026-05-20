@@ -4,9 +4,6 @@
     <HeadTypeDef Name="OCARINA_MantledBeastsAverageBase" Abstract="True">
         <randomChosen>false</randomChosen>
     </HeadTypeDef>
-
-
-    <!-- //// Anthrobear //// -->
     <HeadTypeDef ParentName="OCARINA_MantledBeastsAverageBase">
         <defName>OCARINA_MantledBeasts_Average_Male</defName>
         <requiredGenes>
@@ -15,7 +12,6 @@
         <graphicPath>Things/Pawn/Humanlike/MantledBeasts/Heads/MantledBeast_Average_Male</graphicPath>
         <gender>Male</gender>
     </HeadTypeDef>
-
     <HeadTypeDef ParentName="OCARINA_MantledBeastsAverageBase">
         <defName>OCARINA_MantledBeasts_Average_Female</defName>
         <requiredGenes>

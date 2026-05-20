@@ -48,7 +48,7 @@
         <label>va'ji fur</label>
         <labelShortAdj>va'ji furred</labelShortAdj>
         <description>Carriers of this gene appear to grow a specific beast-like fur, that of a Va'ji.</description>
-        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearFur</iconPath>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsFur</iconPath>
         <skinColorOverride>(255,255,255)</skinColorOverride>
         <forcedHeadTypes>
             <li>OCARINA_MantledBeasts_Average_Male</li>
@@ -97,7 +97,7 @@
         <defName>OCARINA_MantledBeastsEars</defName>
         <label>va'ji ears</label>
         <description>Carriers of this gene have large, Va'ji ears.</description>
-        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearEars</iconPath>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsEars</iconPath>
         <renderNodeProperties>
             <li>
                 <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
@@ -163,7 +163,7 @@
         <defName>OCARINA_MantledBeastsTail</defName>
         <label>va'ji tail</label>
         <description>Carriers of this gene have a Va'ji tail.</description>
-        <iconPath>UI/Icons/Genes/Anthrosonae/Gene_AnthrobearTail</iconPath>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsTail</iconPath>
         <renderNodeProperties>
             <li>
                 <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
@@ -174,12 +174,12 @@
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
-                    <scaleOffsetByBodySize>false</scaleOffsetByBodySize>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0.05,0,-0.80)</offset>
+                        <offset>(0.05,0,-0.70)</offset>
                         <layer>90</layer>
                     </dataNorth>
                     <dataSouth>

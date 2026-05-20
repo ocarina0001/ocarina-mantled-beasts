@@ -19,7 +19,7 @@
         <label>va'ji</label>
         <description>Va'ji (pronounced va-hee) are quite a unique xenotype, commonly known as "mantled beasts" for their beastial apperance and mantle visor, their genes allow them to not only survive but thrive in dangerously hot conditions. There is no known origin for the xenotype's creation, but the earliest documentation pins them to the desert rimworld Aegis, outside of colonized space; soon after, Va'ji spread quite widely amongst the stars and now hold quite high positions in numerous coreworlds.</description>
         <descriptionShort>Va'ji (pronounced va-hee) are quite a unique xenotype, commonly known as "mantled beasts" for their beastial apperance and mantle visor, their genes allow them to not only survive but thrive in dangerously hot conditions</descriptionShort>
-        <iconPath>UI/Icons/Xenotypes/Anthrosonae/Anthrobear</iconPath>
+        <iconPath>UI/Icons/Xenotypes/MantledBeasts</iconPath>
         <genes>
             <li>OCARINA_MantledBeastsFur</li>
             <li>OCARINA_MantledBeastsEars</li>

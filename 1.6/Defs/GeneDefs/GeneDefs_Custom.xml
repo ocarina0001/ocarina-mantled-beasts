@@ -5,7 +5,7 @@
         <defName>OCARINA_MantledBeastsPaws</defName>
         <label>va'ji paws</label>
         <description>Fluffy paws with pads at the ends of one's arms and legs. Consisting of either four fingers (including thumb) or four toes, these paws help with overall speed and stealth, with the sharp claws at the ends allowing for greater protection.</description>
-        <iconPath>UI/Icons/Genes/Gene_ElongatedFingers</iconPath>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsPaws</iconPath>
         <displayOrderInCategory>320</displayOrderInCategory>
         <biostatCpx>4</biostatCpx>
         <biostatMet>-3</biostatMet>
@@ -52,9 +52,9 @@
     <GeneDef>
         <defName>OCARINA_MantledBeastsEyesight</defName>
         <label>va'ji eyesight</label>
-        <iconPath>UI/Icons/Genes/AG_NearBlindness</iconPath>
         <description>Carriers of this gene have particularly poor eyesight.</description>
-        <displayCategory>Miscellaneous</displayCategory>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsEyes</iconPath>
+        <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <displayOrderInCategory>51</displayOrderInCategory>
         <biostatMet>4</biostatMet>
         <biostatCpx>3</biostatCpx>

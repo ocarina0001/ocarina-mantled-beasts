@@ -8,7 +8,7 @@
     </supportedVersions>
     <packageId>ocarina.mantledbeasts</packageId>
     <description>todo</description>
-    <modIconPath IgnoreIfNoMatchingField="True">UI/Logo_Anthrosonae</modIconPath>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/Logo_MantledBeasts</modIconPath>
     <modDependencies>
         <li>
             <packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -16,10 +16,9 @@
             <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
         </li>
         <li>
-            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-            <displayName>Vanilla Expanded Framework</displayName>
-            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-            <downloadUrl>https://github.com/VanillaExpanded/VanillaExpandedFramework</downloadUrl>
+            <packageId>sarg.alphagenes</packageId>
+            <displayName>Alpha Genes</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502</steamWorkshopUrl>
         </li>
     </modDependencies>
     <loadAfter>
@@ -30,6 +29,7 @@
         <li>Ludeon.RimWorld.Anomaly</li>
         <li>Ludeon.RimWorld.Odyssey</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>sarg.alphagenes</li>
     </loadAfter>
     <incompatibleWith>
         <li>Mlie.VariedBodySizes</li>
