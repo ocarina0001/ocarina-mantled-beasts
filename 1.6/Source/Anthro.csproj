@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <LangVersion>latest</LangVersion>
-    <TargetFrameworkProfile/>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <OutputPath>..\Assemblies\</OutputPath>
@@ -39,14 +39,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    <Reference Include="Microsoft.CSharp"/>
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Net.Http"/>
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Publicizer" Version="2.*">
@@ -59,27 +59,28 @@
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <Publicize Include="Assembly-CSharp"/>
+    <Publicize Include="Assembly-CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FurGene.cs"/>
-    <Compile Include="PawnGenerator_GeneratePawn_Patch.cs"/>
-    <Compile Include="Utils.cs"/>
-    <Compile Include="Building_StylingStation_GetFloatMenuOptions_Patch.cs"/>
-    <Compile Include="DefsOf.cs"/>
-    <Compile Include="FloatMenu_Constructor_Patch.cs"/>
-    <Compile Include="FurColorDef.cs"/>
-    <Compile Include="FurColors.cs"/>
-    <Compile Include="JobDriver_ChangeFur.cs"/>
-    <Compile Include="PawnEditor_CompatPatch.cs"/>
-    <Compile Include="PawnRenderNode_Fur_GraphicFor_Patch.cs"/>
-    <Compile Include="PawnRenderNode_GraphicFor_Patch.cs"/>
-    <Compile Include="PawnRenderNode_Head_GraphicFor_Patch.cs"/>
-    <Compile Include="Window_ColorPicker.cs"/>
-    <Compile Include="XenotypeExtension.cs"/>
+    <Compile Include="Apparel_MoodTexture.cs" />
+    <Compile Include="FurGene.cs" />
+    <Compile Include="PawnGenerator_GeneratePawn_Patch.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Building_StylingStation_GetFloatMenuOptions_Patch.cs" />
+    <Compile Include="DefsOf.cs" />
+    <Compile Include="FloatMenu_Constructor_Patch.cs" />
+    <Compile Include="FurColorDef.cs" />
+    <Compile Include="FurColors.cs" />
+    <Compile Include="JobDriver_ChangeFur.cs" />
+    <Compile Include="PawnEditor_CompatPatch.cs" />
+    <Compile Include="PawnRenderNode_Fur_GraphicFor_Patch.cs" />
+    <Compile Include="PawnRenderNode_GraphicFor_Patch.cs" />
+    <Compile Include="PawnRenderNode_Head_GraphicFor_Patch.cs" />
+    <Compile Include="Window_ColorPicker.cs" />
+    <Compile Include="XenotypeExtension.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <PackageReference Include="Lib.Harmony" Version="2.*"/>
+    <PackageReference Include="Lib.Harmony" Version="2.*" />
   </ItemGroup>
 </Project>
