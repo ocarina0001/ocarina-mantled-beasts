@@ -13,7 +13,7 @@
         <capMods>
             <li>
                 <capacity>Manipulation</capacity>
-                <postFactor>0.95</postFactor>
+                <postFactor>0.90</postFactor>
             </li>
         </capMods>
         <statOffsets>
@@ -100,7 +100,7 @@
                 <backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
                 <hediffsToBodyParts>
                     <li>
-                        <hediff>AG_NearBlindness</hediff>
+                        <hediff>OCARINA_MantledBeastsEyesight</hediff>
                         <bodyparts>
                             <li>Eye</li>
                             <li>Eye</li>

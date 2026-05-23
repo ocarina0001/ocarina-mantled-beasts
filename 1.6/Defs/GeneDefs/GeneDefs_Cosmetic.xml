@@ -110,13 +110,13 @@
                 <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
                     <defaultData>
-                        <layer>80</layer>
+                        <layer>71</layer>
                     </defaultData>
                     <dataNorth>
-                        <layer>-70</layer>
+                        <layer>51</layer>
                     </dataNorth>
                     <dataSouth>
-                        <layer>-70</layer>
+                        <layer>51</layer>
                     </dataSouth>
                 </drawData>
             </li>

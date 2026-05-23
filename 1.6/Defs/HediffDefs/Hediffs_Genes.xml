@@ -46,7 +46,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <setMax>0.35</setMax>
+                        <setMax>0.25</setMax>
                     </li>
                 </capMods>
             </li>
