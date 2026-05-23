@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Android</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/VREAndroids.AndroidConvertableGenesDef[defName="VREA_AndroidConvertableGenes"]/geneCategories</xpath>
+            <value>
+                <li>OCARINA_Cosmetic_MantledBeasts</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>

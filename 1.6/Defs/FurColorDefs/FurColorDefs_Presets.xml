@@ -8,10 +8,171 @@
 
 
     <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
-        <defName>OCARINA_FurPreset_TestBeast</defName>
-        <primaryColor>(108,79,63)</primaryColor>
-        <secondaryColor>(40,79,63)</secondaryColor>
-        <selectionWeight>1.5</selectionWeight>
+        <defName>OCARINA_FurPreset_Drexus</defName>
+        <primaryColor>(36, 34, 45)</primaryColor>
+        <secondaryColor>(255,255,255)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
     </MantledBeasts.FurColorDef>
-
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Y2</defName>
+        <primaryColor>(210, 194, 173)</primaryColor>
+        <secondaryColor>(137, 124, 108)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Brom</defName>
+        <primaryColor>(27, 73, 88)</primaryColor>
+        <secondaryColor>(104, 104, 104)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Laceleaf</defName>
+        <primaryColor>(49, 49, 49)</primaryColor>
+        <secondaryColor>(241, 166, 213)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Nyx</defName>
+        <primaryColor>(220, 177, 124)</primaryColor>
+        <secondaryColor>(220, 177, 124)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Kraihy</defName>
+        <primaryColor>(113, 43, 255)</primaryColor>
+        <secondaryColor>(113, 43, 255)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Mitch</defName>
+        <primaryColor>(93, 53, 36)</primaryColor>
+        <secondaryColor>(245, 226, 202)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_CrimeToaster</defName>
+        <primaryColor>(137, 164, 193)</primaryColor>
+        <secondaryColor>(253, 241, 225)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_8Z</defName>
+        <primaryColor>(30,30,30)</primaryColor>
+        <secondaryColor>(182, 187, 217)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Shooshaa</defName>
+        <primaryColor>(254, 253, 225)</primaryColor>
+        <secondaryColor>(167, 153, 142)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Zetameow</defName>
+        <primaryColor>(150, 169, 113)</primaryColor>
+        <secondaryColor>(221, 132, 224)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Saltyexos</defName>
+        <primaryColor>(217, 54, 75)</primaryColor>
+        <secondaryColor>(203, 190, 192)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Xing1</defName>
+        <primaryColor>(21, 53, 38)</primaryColor>
+        <secondaryColor>(0, 246, 131)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Maxadisasta</defName>
+        <primaryColor>(245, 204, 124)</primaryColor>
+        <secondaryColor>(245, 204, 124)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_51ut</defName>
+        <primaryColor>(238, 238, 238)</primaryColor>
+        <secondaryColor>(65, 65, 65)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Avin</defName>
+        <primaryColor>(252, 119, 62)</primaryColor>
+        <secondaryColor>(239, 185, 123)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Sterling</defName>
+        <primaryColor>(231, 195, 167)</primaryColor>
+        <secondaryColor>(55, 48, 46)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Kitsune</defName>
+        <primaryColor>(117, 125, 100)</primaryColor>
+        <secondaryColor>(156, 212, 199)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Inno</defName>
+        <primaryColor>(113, 151, 186)</primaryColor>
+        <secondaryColor>(85, 86, 132)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Kanebaal</defName>
+        <primaryColor>(56, 56, 56)</primaryColor>
+        <secondaryColor>(216, 186, 62)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Athena</defName>
+        <primaryColor>(215, 215, 215)</primaryColor>
+        <secondaryColor>(255,255,255)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Aphel</defName>
+        <primaryColor>(255, 158, 51)</primaryColor>
+        <secondaryColor>(164, 104, 32)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Stylas</defName>
+        <primaryColor>(82, 93, 119)</primaryColor>
+        <secondaryColor>(50, 57, 79)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Lino</defName>
+        <primaryColor>(255,255,255)</primaryColor>
+        <secondaryColor>(255, 157, 134)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Wren</defName>
+        <primaryColor>(128, 144, 206)</primaryColor>
+        <secondaryColor>(64, 83, 151)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Newt</defName>
+        <primaryColor>(251, 208, 140)</primaryColor>
+        <secondaryColor>(254, 247, 203)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Kuro</defName>
+        <primaryColor>(30,30,30)</primaryColor>
+        <secondaryColor>(164, 204, 192)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
+    <MantledBeasts.FurColorDef ParentName="OCARINA_FurPresetBeastBase">
+        <defName>OCARINA_FurPreset_Cassidy</defName>
+        <primaryColor>(22, 79, 132)</primaryColor>
+        <secondaryColor>(255,255,255)</secondaryColor>
+        <selectionWeight>1.0</selectionWeight>
+    </MantledBeasts.FurColorDef>
 </Defs>

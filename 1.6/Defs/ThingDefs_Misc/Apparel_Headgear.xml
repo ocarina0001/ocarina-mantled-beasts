@@ -7,11 +7,13 @@
         <label>mantle</label>
         <description>todo</description>
         <techLevel>Industrial</techLevel>
+        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <uiIconScale>1.4</uiIconScale>
+        <tickerType>Rare</tickerType>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>

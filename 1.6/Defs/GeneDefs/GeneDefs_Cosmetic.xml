@@ -58,7 +58,34 @@
         <modExtensions>
             <li Class="MantledBeasts.FurColors">
                 <allowedFurColors>
-                    <li>OCARINA_FurPreset_TestBeast</li>
+                    <li>OCARINA_FurPreset_Drexus</li>
+                    <li>OCARINA_FurPreset_Y2</li>
+                    <li>OCARINA_FurPreset_Brom</li>
+                    <li>OCARINA_FurPreset_Laceleaf</li>
+                    <li>OCARINA_FurPreset_Nyx</li>
+                    <li>OCARINA_FurPreset_Kraihy</li>
+                    <li>OCARINA_FurPreset_Mitch</li>
+                    <li>OCARINA_FurPreset_CrimeToaster</li>
+                    <li>OCARINA_FurPreset_8Z</li>
+                    <li>OCARINA_FurPreset_Shooshaa</li>
+                    <li>OCARINA_FurPreset_Zetameow</li>
+                    <li>OCARINA_FurPreset_Saltyexos</li>
+                    <li>OCARINA_FurPreset_Xing1</li>
+                    <li>OCARINA_FurPreset_Maxadisasta</li>
+                    <li>OCARINA_FurPreset_51ut</li>
+                    <li>OCARINA_FurPreset_Avin</li>
+                    <li>OCARINA_FurPreset_Sterling</li>
+                    <li>OCARINA_FurPreset_Kitsune</li>
+                    <li>OCARINA_FurPreset_Inno</li>
+                    <li>OCARINA_FurPreset_Kanebaal</li>
+                    <li>OCARINA_FurPreset_Athena</li>
+                    <li>OCARINA_FurPreset_Aphel</li>
+                    <li>OCARINA_FurPreset_Stylas</li>
+                    <li>OCARINA_FurPreset_Lino</li>
+                    <li>OCARINA_FurPreset_Wren</li>
+                    <li>OCARINA_FurPreset_Newt</li>
+                    <li>OCARINA_FurPreset_Kuro</li>
+                    <li>OCARINA_FurPreset_Cassidy</li>
                 </allowedFurColors>
             </li>
             <li Class="MantledBeasts.ColorMasks">

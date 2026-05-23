@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Inheritability -->
+    <Operation Class="VEF.PatchOperationToggableSequence">
+        <enabled>true</enabled>
+        <label>Enable inheritability:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[@Name="OCARINA_MantledBeastsBase"]</xpath>
+                <value>
+                    <inheritable>true</inheritable>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+                <value>
+                    <OCARINA_MantledBeasts>0.002</OCARINA_MantledBeasts>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

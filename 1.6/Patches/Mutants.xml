@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Anomaly">
+                <xpath>Defs/MutantDef[defName="Ghoul"]/disablesGenes</xpath>
+                <value>
+                    <li>OCARINA_MantledBeastsFur</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Apparel_MoodTexture.cs" />
     <Compile Include="FurGene.cs" />
+    <Compile Include="Patch_Apparel_WornGraphicPath.cs" />
     <Compile Include="PawnGenerator_GeneratePawn_Patch.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="Building_StylingStation_GetFloatMenuOptions_Patch.cs" />
