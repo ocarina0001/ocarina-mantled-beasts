@@ -7,5 +7,6 @@ namespace MantledBeasts
     public static class DefsOf
     {
         public static JobDef OCARINA_ChangeBeastFur;
+        public static GeneDef OCARINA_MantledBeastsFur;
     }
 }

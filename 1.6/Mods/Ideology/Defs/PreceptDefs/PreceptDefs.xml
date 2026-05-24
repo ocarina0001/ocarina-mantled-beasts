@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <IssueDef>
+        <defName>OCARINA_VajiMantle</defName>
+        <label>va'ji mantle</label>
+        <iconPath>UI/Issues/Nudity_Male</iconPath>
+    </IssueDef>
+
+    <PreceptDef>
+        <defName>OCARINA_Vaji_Mantle_Mandatory</defName>
+        <issue>OCARINA_VajiMantle</issue>
+        <description>Va'ji should wear their mantles at all times, not doing so shows a lack of decorum for the existing social structure, like a baseliner going to a bar in the nude.</description>
+        <label>mandatory</label>
+        <impact>High</impact>
+        <displayOrderInIssue>130</displayOrderInIssue>
+        <displayOrderInImpact>850</displayOrderInImpact>
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OCARINA_NotWearingMantle</thought>
+            </li>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OCARINA_NotWearingMantle_Social</thought>
+            </li>
+        </comps>
+    </PreceptDef>
+
+    <ThoughtDef>
+        <defName>OCARINA_NotWearingMantle</defName>
+        <workerClass>MantledBeasts.ThoughtWorker_Precept_VajiNotWearingMantle</workerClass>
+        <stages>
+            <li>
+                <label>not wearing mantle</label>
+                <description>As a va'ji, I should be wearing my mantle to express myself, and I'm not.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>OCARINA_NotWearingMantle_Social</defName>
+        <thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>MantledBeasts.ThoughtWorker_Precept_VajiNotWearingMantleSocial</workerClass>
+        <stages>
+            <li>
+                <label>not mantled</label>
+                <baseOpinionOffset>-8</baseOpinionOffset>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <MemeDef>
+        <defName>OCARINA_Mantles</defName>
+        <label>va'ji mantles</label>
+        <description>Va'ji should wear their mantles.</description>
+        <iconPath>UI/Memes/Nudism</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>1</impact>
+        <renderOrder>999</renderOrder>
+        <preventApparelRequirements>true</preventApparelRequirements>
+        <requireOne>
+            <li>
+                <li>OCARINA_Vaji_Mantle_Mandatory</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

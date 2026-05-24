@@ -9,6 +9,9 @@ todo:
 - vaji mushrooms (growable, sensitive, definitely requires c# for the water and underground requirements. mushroom gas should behave similar to rot stink)
 - custom hairs
 - mantle needs code to prevent non-vaji wearers
+- mantle types (tribal, industrial, armored, archotech)
+- mantlegear types (tribal, industrial, aegiscite, armored, archotech)
+
 fixes:
 - split east/west textures not being proper (both sides are one color)
 - split tail mask is incorrect
