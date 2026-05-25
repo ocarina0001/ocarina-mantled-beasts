@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <StyleItemCategoryDef>
+        <defName>OCARINA_Vaji</defName>
+        <label>va'ji</label>
+    </StyleItemCategoryDef>
+
+    <HairDef Name="OCARINA_MantledBeastsHairBase" Abstract="true">
+        <styleGender>Any</styleGender>
+        <requiredGene>OCARINA_MantledBeastsHair</requiredGene>
+        <category>OCARINA_Vaji</category>
+        <styleTags>
+            <li>OCARINA_Vaji</li>
+            <li>OCARINA_MantledBeasts</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef ParentName="OCARINA_MantledBeastsHairBase">
+        <defName>OCARINA_VajiHair1</defName>
+        <label>fluff</label>
+        <texPath>Pawn/VajiHair/FluffyHair</texPath>
+    </HairDef>
+    <HairDef ParentName="OCARINA_MantledBeastsHairBase">
+        <defName>OCARINA_VajiHair2</defName>
+        <label>swept</label>
+        <texPath>Pawn/VajiHair/FluffyHair1</texPath>
+    </HairDef>
+    <HairDef ParentName="OCARINA_MantledBeastsHairBase">
+        <defName>OCARINA_VajiHair3</defName>
+        <label>chop</label>
+        <texPath>Pawn/VajiHair/FluffyHair3</texPath>
+    </HairDef>
+    <HairDef ParentName="OCARINA_MantledBeastsHairBase">
+        <defName>OCARINA_VajiHair4</defName>
+        <label>prince</label>
+        <texPath>Pawn/VajiHair/FluffyHair4</texPath>
+    </HairDef>
+
+</Defs>
