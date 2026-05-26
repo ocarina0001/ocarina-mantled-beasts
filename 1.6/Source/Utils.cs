@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using RimWorld;
 using System.Globalization;
 using UnityEngine;
 using Verse;
@@ -11,7 +12,11 @@ namespace MantledBeasts
     {
         static Utils()
         {
-            new Harmony("MantledBeastsMod").PatchAll();
+            var harmony = new Harmony("MantledBeastsMod");
+            var targetMethod = AccessTools.Method(typeof(EquipmentUtility), nameof(EquipmentUtility.CanEquip), [typeof(Thing), typeof(Pawn), typeof(string).MakeByRefType(), typeof(bool)]);
+            var postfixMethod = AccessTools.Method(typeof(Patch_CanEquip), nameof(Patch_CanEquip.Postfix));
+            harmony.Patch(targetMethod, postfix: new HarmonyMethod(postfixMethod));
+            harmony.PatchAll();
         }
 
         //oca - all of the below code with all of the comments is in the original anthrosonae source; highly indicitive of ai coding

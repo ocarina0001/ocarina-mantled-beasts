@@ -104,6 +104,9 @@
                     </li>
                 </allowedColorMasks>
             </li>
+            <li Class="VEF.Genes.GeneExtension">
+                <useSkinColorForFur>True</useSkinColorForFur>
+            </li>
         </modExtensions>
         <statOffsets>
             <ComfyTemperatureMin>-3</ComfyTemperatureMin>
@@ -140,10 +143,10 @@
                         <layer>71</layer>
                     </defaultData>
                     <dataNorth>
-                        <layer>51</layer>
+                        <layer>63</layer>
                     </dataNorth>
                     <dataSouth>
-                        <layer>51</layer>
+                        <layer>63</layer>
                     </dataSouth>
                 </drawData>
             </li>
@@ -172,6 +175,12 @@
         <statOffsets>
             <ComfyTemperatureMax>3</ComfyTemperatureMax>
         </statOffsets>
+        <capMods>
+            <li>
+                <capacity>Hearing</capacity>
+                <postFactor>1.1</postFactor>
+            </li>
+        </capMods>
     </GeneDef>
 
     <GeneDef Name="OCARINA_MantledBeastsTailBase" ParentName="GeneTailBase" Abstract="True">
@@ -234,12 +243,11 @@
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <iconColor>(0.75,0.75,0.75)</iconColor>
         <displayOrderInCategory>333</displayOrderInCategory>
-        <canGenerateInGeneSet>true</canGenerateInGeneSet>
-        <randomChosen>true</randomChosen>
         <hairTagFilter>
             <whitelist>true</whitelist>
             <tags>
-                <li>OCARINA_MantledBeasts</li>
+                <li>OCARINA_Vaji</li>
+                <li>Shaved</li>
             </tags>
         </hairTagFilter>
         <symbolPack>

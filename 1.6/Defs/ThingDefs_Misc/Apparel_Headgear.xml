@@ -55,6 +55,13 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <modExtensions>
+            <li Class="MantledBeasts.DefModExtension_ClothingRestriction">
+                <requiredGenesToEquip>
+                    <li>OCARINA_MantledBeastsFur</li>
+                </requiredGenesToEquip>
+            </li>
+        </modExtensions>
     </ThingDef>
 
 </Defs>
