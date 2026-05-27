@@ -18,22 +18,22 @@
     <HairDef ParentName="OCARINA_MantledBeastsHairBase">
         <defName>OCARINA_VajiHair1</defName>
         <label>fluff</label>
-        <texPath>Pawn/VajiHair/FluffyHair</texPath>
+        <texPath>Things/Pawn/VajiHair/FluffyHair</texPath>
     </HairDef>
     <HairDef ParentName="OCARINA_MantledBeastsHairBase">
         <defName>OCARINA_VajiHair2</defName>
         <label>swept</label>
-        <texPath>Pawn/VajiHair/FluffyHair1</texPath>
+        <texPath>Things/Pawn/VajiHair/FluffyHair1</texPath>
     </HairDef>
     <HairDef ParentName="OCARINA_MantledBeastsHairBase">
         <defName>OCARINA_VajiHair3</defName>
         <label>chop</label>
-        <texPath>Pawn/VajiHair/FluffyHair3</texPath>
+        <texPath>Things/Pawn/VajiHair/FluffyHair3</texPath>
     </HairDef>
     <HairDef ParentName="OCARINA_MantledBeastsHairBase">
         <defName>OCARINA_VajiHair4</defName>
         <label>prince</label>
-        <texPath>Pawn/VajiHair/FluffyHair4</texPath>
+        <texPath>Things/Pawn/VajiHair/FluffyHair4</texPath>
     </HairDef>
 
 </Defs>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-    <ThingDef Name="OCARINA_MantledBeastsMantleBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <ThingDef Name="OCARINA_MantledBeastsMantleBase" ParentName="ApparelBase" Abstract="True">
         <tickerType>Rare</tickerType>
-        <uiIconScale>1.0</uiIconScale>
+        <uiIconScale>1.4</uiIconScale>
+        <thingCategories>
+            <li>ArmorHeadgear</li>
+        </thingCategories>
         <tradeTags>
             <li>Clothing</li>
             <li>Armor</li>
@@ -26,6 +29,7 @@
                     <layer>-3</layer>
                 </dataNorth>
             </drawData>
+            <parentTagDef>ApparelHead</parentTagDef>
         </apparel>
         <modExtensions>
             <li Class="MantledBeasts.DefModExtension_ClothingRestriction">
@@ -80,6 +84,52 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
         </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
+        <defName>OCARINA_Apparel_IndustrialMantle</defName>
+        <label>industrial visor</label>
+        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), this visor is is much more industrial in terms of quality compared to aegiscite visors one may find elsewhere. Still, an improvement to the Va'jis' natural limitations. \n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
+        <techLevel>Industrial</techLevel>
+        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/IndustrialMantle/IndustrialMantle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3200</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.5</Mass>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.67</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <workSkill>Crafting</workSkill>
+            <displayPriority>999</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/IndustrialMantle/IndustrialMantle</wornGraphicPath>
+        </apparel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>30</costStuffCount>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
     </ThingDef>
 
 </Defs>
