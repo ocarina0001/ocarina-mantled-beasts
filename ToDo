@@ -7,7 +7,6 @@ todo:
 - mantlegear (apparel that applies a hediff that checks if the pawn has the mantled beast tail for custom graphic. mantlegear itself should probably be on a new clothing layer, above middle but below outer, otherwise do skin and hope for the best) types (tribal, industrial, aegiscite, armored, archotech)
 - custom pawnkinds for faction raids and whatnot
 - vaji mushrooms (growable, sensitive, definitely requires c# for the water and underground requirements. mushroom gas should behave similar to rot stink)
-- add techist style to normal aegiscite mantle for alt coloration
 
 Apparel:
 - Visor / Mantle: Made for Mantled Beasts, improves the hearing, sight, manipulation, and talking of Beasts who wear it, but has no effect on non-Beast pawns as they visor simply doesn't fit. (requires C# to check the pawn's genes on equip, and more C# to display the wearer's mood via changing masks). Can by dyed to change the mask's color. Should come in a few varieties: Normal (Aegiscite), Industrial (Components), Armored (Plasteel), Tribal (Woody), Archotech. Should be genetically sad if not wearing them. Should make some styles for Ideology.

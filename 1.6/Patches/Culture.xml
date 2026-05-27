@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/CultureDef[defName="Astropolitan" or defName="Rustican" or defName="Corunan" or defName="Kriminul"]/styleItemTags</xpath>
+        <xpath>Defs/CultureDef[defName="Astropolitan" or defName="Rustican" or defName="Corunan" or defName="Kriminul"]/styleItemTags</xpath>
         <value>
             <li>
                 <tag>OCARINA_Vaji</tag>
