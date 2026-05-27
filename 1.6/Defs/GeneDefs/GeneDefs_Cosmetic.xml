@@ -105,7 +105,7 @@
                 </allowedColorMasks>
             </li>
             <li Class="VEF.Genes.GeneExtension">
-                <useSkinColorForFur>True</useSkinColorForFur>
+                <furHidesBody>true</furHidesBody>
             </li>
         </modExtensions>
         <statOffsets>
