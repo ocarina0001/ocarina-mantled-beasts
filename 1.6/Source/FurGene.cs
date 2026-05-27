@@ -223,6 +223,7 @@ namespace MantledBeasts
         {
             if (pawn != null)
             {
+                pawn.story.HairColor = colorOne;
                 pawn.story.skinColorOverride = colorTwo;
                 pawn.drawer.renderer.SetAllGraphicsDirty();
             }

@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\furgene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:furgene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\ocarina-mantled-beasts\\1.6\\source\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +15,11 @@
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:apparel_moodtexture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\ocarina-mantled-beasts\\1.6\\source\\patch_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\patch_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:patch_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\ocarina-mantled-beasts\\1.6\\source\\defmodextension_clothingrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\defmodextension_clothingrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:defmodextension_clothingrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:patch_apparel_worngraphicpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\ocarina-mantled-beasts\\1.6\\source\\thoughtworker_precept_vajinotwearingmantle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\thoughtworker_precept_vajinotwearingmantle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:thoughtworker_precept_vajinotwearingmantle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\furcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:furcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\furgene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|solutionrelative:furgene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|Anthro.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\building_stylingstation_getfloatmenuoptions_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Patch_CanEquip.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Patch_CanEquip.cs",
               "RelativeDocumentMoniker": "Patch_CanEquip.cs",
@@ -98,12 +98,11 @@
               "RelativeToolTip": "Patch_CanEquip.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:00:36.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T04:00:36.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DefModExtension_ClothingRestriction.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\DefModExtension_ClothingRestriction.cs",
               "RelativeDocumentMoniker": "DefModExtension_ClothingRestriction.cs",
@@ -111,12 +110,11 @@
               "RelativeToolTip": "DefModExtension_ClothingRestriction.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T03:53:09.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T03:53:09.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ThoughtWorker_Precept_VajiNotWearingMantle.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\ThoughtWorker_Precept_VajiNotWearingMantle.cs",
               "RelativeDocumentMoniker": "ThoughtWorker_Precept_VajiNotWearingMantle.cs",
@@ -124,12 +122,11 @@
               "RelativeToolTip": "ThoughtWorker_Precept_VajiNotWearingMantle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswBcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:16:46.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-24T15:16:46.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Patch_Apparel_WornGraphicPath.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Patch_Apparel_WornGraphicPath.cs",
               "RelativeDocumentMoniker": "Patch_Apparel_WornGraphicPath.cs",
@@ -137,12 +134,11 @@
               "RelativeToolTip": "Patch_Apparel_WornGraphicPath.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T14:25:46.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T14:25:46.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Apparel_MoodTexture.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Apparel_MoodTexture.cs",
               "RelativeDocumentMoniker": "Apparel_MoodTexture.cs",
@@ -150,12 +146,11 @@
               "RelativeToolTip": "Apparel_MoodTexture.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T14:20:55.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T14:20:55.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "JobDriver_ChangeFur.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\JobDriver_ChangeFur.cs",
               "RelativeDocumentMoniker": "JobDriver_ChangeFur.cs",
@@ -179,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Window_ColorPicker.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Window_ColorPicker.cs",
               "RelativeDocumentMoniker": "Window_ColorPicker.cs",
@@ -191,13 +186,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Utils.cs",
               "RelativeDocumentMoniker": "Utils.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Utils.cs",
               "RelativeToolTip": "Utils.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-16T00:39:18.561Z",
               "EditorCaption": ""
@@ -252,19 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "FurGene.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\FurGene.cs",
               "RelativeDocumentMoniker": "FurGene.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\FurGene.cs",
               "RelativeToolTip": "FurGene.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowDAAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAwOYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T00:36:04.193Z"
+              "WhenOpened": "2026-05-16T00:36:04.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FurColors.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\FurColors.cs",
               "RelativeDocumentMoniker": "FurColors.cs",
@@ -288,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FloatMenu_Constructor_Patch.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\FloatMenu_Constructor_Patch.cs",
               "RelativeDocumentMoniker": "FloatMenu_Constructor_Patch.cs",
@@ -300,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DefsOf.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\DefsOf.cs",
               "RelativeDocumentMoniker": "DefsOf.cs",
