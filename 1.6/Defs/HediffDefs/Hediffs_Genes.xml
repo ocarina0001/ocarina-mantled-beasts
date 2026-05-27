@@ -49,6 +49,10 @@
                         <setMax>0.25</setMax>
                     </li>
                 </capMods>
+                <statFactors>
+                    <ShootingAccuracyFactor_Long>0.25</ShootingAccuracyFactor_Long>
+                    <ShootingAccuracyFactor_Medium>0.5</ShootingAccuracyFactor_Medium>
+                </statFactors>
             </li>
         </stages>
     </HediffDef>

@@ -1,59 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-
-    <ThingDef ParentName="ArmorHelmetMakeableBase">
-        <defName>OCARINA_Apparel_AegisciteMantle</defName>
-        <label>mantle</label>
-        <description>todo</description>
-        <techLevel>Industrial</techLevel>
-        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
-        <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <uiIconScale>1.4</uiIconScale>
+    <ThingDef Name="OCARINA_MantledBeastsMantleBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
         <tickerType>Rare</tickerType>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>40</costStuffCount>
+        <uiIconScale>1.0</uiIconScale>
         <tradeTags>
             <li>Clothing</li>
             <li>Armor</li>
+            <li>OCARINA_ApparelMantle</li>
         </tradeTags>
-        <statBases>
-            <WorkToMake>3200</WorkToMake>
-            <MaxHitPoints>100</MaxHitPoints>
-            <Mass>2</Mass>
-            <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>1.5</EquipDelay>
-        </statBases>
-        <recipeMaker>
-            <researchPrerequisite>Smithing</researchPrerequisite>
-            <recipeUsers>
-                <li>ElectricSmithy</li>
-                <li>FueledSmithy</li>
-            </recipeUsers>
-            <displayPriority>200</displayPriority>
-        </recipeMaker>
         <apparel>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>
             <tags>
-                <li>IndustrialMilitaryBasic</li>
+                <li>OCARINA_ApparelMantle</li>
             </tags>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>-3</layer>
+                </dataNorth>
+            </drawData>
         </apparel>
         <modExtensions>
             <li Class="MantledBeasts.DefModExtension_ClothingRestriction">
@@ -62,6 +34,52 @@
                 </requiredGenesToEquip>
             </li>
         </modExtensions>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+
+    <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
+        <defName>OCARINA_Apparel_AegisciteMantle</defName>
+        <label>aegiscite visor</label>
+        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), the aegiscite visor is common among inhabitants of Aegis, with them being rarer as one strays further from known sources of aegiscite. This is the highest tier of visor that can be crafted.\n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
+        <techLevel>Ultra</techLevel>
+        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>0.2</Mass>
+            <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.55</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <workSkill>Crafting</workSkill>
+            <displayPriority>999</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+        <costList>
+            <OCARINA_Aegiscite>30</OCARINA_Aegiscite>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
+        </apparel>
     </ThingDef>
 
 </Defs>
