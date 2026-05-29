@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>OCARINA_AegisciteMantleHediff</defName>
+        <label>aegiscite mantle</label>
+        <description>The benefits of the aegiscite mantle.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <minSeverity>0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>1.25</offset>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <ShootingAccuracyFactor_Long>1.50</ShootingAccuracyFactor_Long>
+                    <ShootingAccuracyFactor_Medium>1.75</ShootingAccuracyFactor_Medium>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OCARINA_IndustrialMantleHediff</defName>
+        <label>industrial mantle</label>
+        <description>The benefits of the industrial mantle.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <minSeverity>0</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>1.0</offset>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <ShootingAccuracyFactor_Long>1.25</ShootingAccuracyFactor_Long>
+                    <ShootingAccuracyFactor_Medium>1.5</ShootingAccuracyFactor_Medium>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

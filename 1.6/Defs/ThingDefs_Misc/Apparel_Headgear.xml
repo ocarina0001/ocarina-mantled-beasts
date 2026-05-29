@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef Name="OCARINA_MantledBeastsMantleBase" ParentName="ApparelBase" Abstract="True">
-        <tickerType>Rare</tickerType>
+        <tickerType>Normal</tickerType>
         <uiIconScale>1.4</uiIconScale>
         <thingCategories>
             <li>ArmorHeadgear</li>
@@ -62,6 +62,15 @@
             <Insulation_Cold>1</Insulation_Cold>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
+        <equippedStatOffsets>
+            <GlobalLearningFactor>0.2</GlobalLearningFactor>
+            <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+            <ResearchSpeed>0.2</ResearchSpeed>
+            <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+            <MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
+            <NegotiationAbility>0.2</NegotiationAbility>
+            <SocialImpact>0.2</SocialImpact>
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
             <recipeUsers>
@@ -84,6 +93,13 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
         </apparel>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_AegisciteMantleHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
@@ -100,11 +116,17 @@
             <WorkToMake>3200</WorkToMake>
             <MaxHitPoints>100</MaxHitPoints>
             <Mass>0.5</Mass>
-            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierArmor>0.42</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
             <EquipDelay>1.67</EquipDelay>
         </statBases>
+        <equippedStatOffsets>
+            <GlobalLearningFactor>0.05</GlobalLearningFactor>
+            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>Machining</researchPrerequisite>
             <recipeUsers>
@@ -130,6 +152,48 @@
         <costList>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
+        <defName>OCARINA_Apparel_TribalMantle</defName>
+        <label>visormask</label>
+        <description>A wearable mask made specifically for the Va'ji (other xenotypes cannot wear these masks), this mask is a facsimilie of a visor, being completely techless. Va'ji can still sometimes carve patterns into their own masks to fulfill their internal self-expression desires. Being nothing more than a piece of fancy wood, the visormask doesn't provide any of the major stat benefits the other mantles do.\n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function as fashion and individual expression.</description>
+        <techLevel>Neolithic</techLevel>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/TribalMantle/TribalMantle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1280</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.8</Mass>
+            <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.03</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.8</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+            <PainShockThreshold>0.1</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <displayPriority>999</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalMantle/TribalMantle</wornGraphicPath>
+        </apparel>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>30</costStuffCount>
     </ThingDef>
 
 </Defs>

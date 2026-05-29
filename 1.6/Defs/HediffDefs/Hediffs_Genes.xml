@@ -46,7 +46,7 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <setMax>0.25</setMax>
+                        <offset>-0.45</offset>
                     </li>
                 </capMods>
                 <statFactors>

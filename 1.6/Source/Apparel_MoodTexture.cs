@@ -11,9 +11,9 @@ namespace MantledBeasts
 
         public string CurrentSuffix => currentSuffix;
 
-        public override void TickRare()
+        public override void Tick()
         {
-            base.TickRare();
+            base.Tick();
             if (Find.TickManager.TicksGame < nextCheckTick)
                 return;
             nextCheckTick = Find.TickManager.TicksGame + 300;
