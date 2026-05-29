@@ -15,15 +15,14 @@
         <apparel>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
             <bodyPartGroups>
                 <li>UpperHead</li>
             </bodyPartGroups>
             <layers>
                 <li>Overhead</li>
             </layers>
-            <tags>
-                <li>OCARINA_ApparelMantle</li>
-            </tags>
             <drawData>
                 <dataNorth>
                     <layer>-3</layer>
@@ -41,6 +40,63 @@
         <colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
+    <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
+        <defName>OCARINA_Apparel_ArchotechMantle</defName>
+        <label>archotech visor</label>
+        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), this is a piece of archotechnology created by an archotech that shows favor towards the Va'ji. This archotech visor is incredibly powerful, capable of boosting a Va'ji's abilities nearly tenfold. \n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
+        <techLevel>Ultra</techLevel>
+        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/ArchotechMantle/ArchotechMantle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>4200</MarketValue>
+            <MaxHitPoints>400</MaxHitPoints>
+            <Mass>0.24</Mass>
+            <ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.76</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.70</ArmorRating_Heat>
+            <Insulation_Cold>2.2</Insulation_Cold>
+            <EquipDelay>1.21</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <GlobalLearningFactor>0.50</GlobalLearningFactor>
+            <WorkSpeedGlobal>0.52</WorkSpeedGlobal>
+            <GeneralLaborSpeed>0.52</GeneralLaborSpeed>
+            <SocialImpact>0.62</SocialImpact>
+            <PainShockThreshold>0.52</PainShockThreshold>
+            <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
+            <MeleeHitChance>0.58</MeleeHitChance>
+            <ArrestSuccessChance>0.52</ArrestSuccessChance>
+            <ShootingAccuracyFactor_Touch>0.58</ShootingAccuracyFactor_Touch>
+            <ShootingAccuracyFactor_Short>0.54</ShootingAccuracyFactor_Short>
+            <ShootingAccuracyFactor_Medium>0.50</ShootingAccuracyFactor_Medium>
+            <ShootingAccuracyFactor_Long>0.46</ShootingAccuracyFactor_Long>
+            <RangedCooldownFactor>0.5</RangedCooldownFactor>
+            <PsychicSensitivity>0.42</PsychicSensitivity>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArchotechMantle/ArchotechMantle</wornGraphicPath>
+            <tags>
+                <li>OCARINA_ApparelMantleArchotech</li>
+            </tags>
+        </apparel>
+        <tradeTags Inherit="false">
+            <li>Artifact</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_ArchotechMantleHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+        <thingSetMakerTags>
+            <li>RewardStandardHighFreq</li>
+        </thingSetMakerTags>
+    </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
         <defName>OCARINA_Apparel_AegisciteMantle</defName>
@@ -54,22 +110,28 @@
         </graphicData>
         <statBases>
             <WorkToMake>8000</WorkToMake>
-            <MaxHitPoints>120</MaxHitPoints>
-            <Mass>0.2</Mass>
+            <MaxHitPoints>240</MaxHitPoints>
+            <Mass>0.18</Mass>
             <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.55</ArmorRating_Heat>
-            <Insulation_Cold>1</Insulation_Cold>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
+            <Insulation_Cold>1.2</Insulation_Cold>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <GlobalLearningFactor>0.2</GlobalLearningFactor>
-            <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
-            <ResearchSpeed>0.2</ResearchSpeed>
-            <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
-            <MedicalSurgerySuccessChance>0.2</MedicalSurgerySuccessChance>
-            <NegotiationAbility>0.2</NegotiationAbility>
-            <SocialImpact>0.2</SocialImpact>
+            <GlobalLearningFactor>0.20</GlobalLearningFactor>
+            <WorkSpeedGlobal>0.22</WorkSpeedGlobal>
+            <GeneralLaborSpeed>0.22</GeneralLaborSpeed>
+            <SocialImpact>0.32</SocialImpact>
+            <PainShockThreshold>0.22</PainShockThreshold>
+            <MeleeCooldownFactor>0.2</MeleeCooldownFactor>
+            <MeleeHitChance>0.28</MeleeHitChance>
+            <ArrestSuccessChance>0.22</ArrestSuccessChance>
+            <ShootingAccuracyFactor_Touch>0.28</ShootingAccuracyFactor_Touch>
+            <ShootingAccuracyFactor_Short>0.24</ShootingAccuracyFactor_Short>
+            <ShootingAccuracyFactor_Medium>0.20</ShootingAccuracyFactor_Medium>
+            <ShootingAccuracyFactor_Long>0.16</ShootingAccuracyFactor_Long>
+            <RangedCooldownFactor>0.2</RangedCooldownFactor>
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
@@ -77,7 +139,7 @@
                 <li>FabricationBench</li>
             </recipeUsers>
             <skillRequirements>
-                <Crafting>6</Crafting>
+                <Crafting>8</Crafting>
             </skillRequirements>
             <workSkill>Crafting</workSkill>
             <displayPriority>999</displayPriority>
@@ -87,11 +149,15 @@
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
         </recipeMaker>
         <costList>
-            <OCARINA_Aegiscite>30</OCARINA_Aegiscite>
-            <ComponentSpacer>1</ComponentSpacer>
+            <OCARINA_Aegiscite>45</OCARINA_Aegiscite>
+            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
         </apparel>
         <comps>
             <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
@@ -100,12 +166,13 @@
                 </hediffDefnames>
             </li>
         </comps>
+
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
         <defName>OCARINA_Apparel_IndustrialMantle</defName>
         <label>industrial visor</label>
-        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), this visor is is much more industrial in terms of quality compared to aegiscite visors one may find elsewhere. Still, an improvement to the Va'jis' natural limitations. \n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
+        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), this visor is much more industrial in terms of quality compared to aegiscite visors one may find elsewhere. Still, an improvement to the Va'jis' natural limitations. \n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
         <techLevel>Industrial</techLevel>
         <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
         <graphicData>
@@ -113,18 +180,18 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>3200</WorkToMake>
+            <WorkToMake>3000</WorkToMake>
             <MaxHitPoints>100</MaxHitPoints>
             <Mass>0.5</Mass>
-            <StuffEffectMultiplierArmor>0.42</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.18</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
             <EquipDelay>1.67</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <GlobalLearningFactor>0.05</GlobalLearningFactor>
-            <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            <GlobalLearningFactor>0.08</GlobalLearningFactor>
+            <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+            <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
             <SocialImpact>0.15</SocialImpact>
         </equippedStatOffsets>
         <recipeMaker>
@@ -144,6 +211,9 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/IndustrialMantle/IndustrialMantle</wornGraphicPath>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
         </apparel>
         <stuffCategories>
             <li>Metallic</li>
@@ -155,7 +225,71 @@
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
+        <defName>OCARINA_Apparel_ArmoredMantle</defName>
+        <label>armored visor</label>
+        <description>A wearable visor made specifically for the Va'ji (other xenotypes cannot wear these visors), this visor is created for use in war time, being much sturdier and protective than the technologically equivalent industrial mantel, trading off labor skill for combat prowess. Still, an improvement to the Va'jis' natural limitations. \n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function not only as fashion and individual expression, but as utility to help improve their poor eyesight and improve communication.</description>
+        <techLevel>Industrial</techLevel>
+        <thingClass>MantledBeasts.Apparel_MoodTexture</thingClass>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/ArmoredMantle/ArmoredMantle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>4500</WorkToMake>
+            <MaxHitPoints>160</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.29</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+            <PainShockThreshold>0.1</PainShockThreshold>
+            <MeleeCooldownFactor>0.08</MeleeCooldownFactor>
+            <MeleeHitChance>0.16</MeleeHitChance>
+            <ArrestSuccessChance>0.10</ArrestSuccessChance>
+            <ShootingAccuracyFactor_Touch>0.16</ShootingAccuracyFactor_Touch>
+            <ShootingAccuracyFactor_Short>0.12</ShootingAccuracyFactor_Short>
+            <ShootingAccuracyFactor_Medium>0.08</ShootingAccuracyFactor_Medium>
+            <ShootingAccuracyFactor_Long>0.04</ShootingAccuracyFactor_Long>
+            <RangedCooldownFactor>0.08</RangedCooldownFactor>
+            <ResearchSpeedFactor>-0.20</ResearchSpeedFactor>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <workSkill>Crafting</workSkill>
+            <displayPriority>999</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArmoredMantle/ArmoredMantle</wornGraphicPath>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
+        </apparel>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>20</costStuffCount>
+        <costList>
+            <Plasteel>25</Plasteel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
         <defName>OCARINA_Apparel_TribalMantle</defName>
+        <tickerType>Never</tickerType>
         <label>visormask</label>
         <description>A wearable mask made specifically for the Va'ji (other xenotypes cannot wear these masks), this mask is a facsimilie of a visor, being completely techless. Va'ji can still sometimes carve patterns into their own masks to fulfill their internal self-expression desires. Being nothing more than a piece of fancy wood, the visormask doesn't provide any of the major stat benefits the other mantles do.\n\nVisors are important parts of Va'ji society, much like clothing is to other xenotypes. Va'ji prefer to wear their visors for most of their lives, as they function as fashion and individual expression.</description>
         <techLevel>Neolithic</techLevel>
@@ -189,6 +323,9 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalMantle/TribalMantle</wornGraphicPath>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
         </apparel>
         <stuffCategories>
             <li>Woody</li>
