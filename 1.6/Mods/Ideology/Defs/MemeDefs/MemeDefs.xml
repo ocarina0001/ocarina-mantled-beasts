@@ -3,8 +3,8 @@
 
     <MemeDef>
         <defName>OCARINA_Mantles</defName>
-        <label>va'ji mantles</label>
-        <description>Va'ji should wear their mantles.</description>
+        <label>va'ji attire</label>
+        <description>Va'ji should wear their visors and mantlegear.</description>
         <iconPath>UI/Memes/Nudism</iconPath>
         <groupDef>Misc</groupDef>
         <impact>1</impact>
@@ -13,8 +13,52 @@
         <requireOne>
             <li>
                 <li>OCARINA_Vaji_Mantle_Mandatory</li>
+                <li>OCARINA_Vaji_Mantlegear_Mandatory</li>
             </li>
         </requireOne>
+        <generalRules>
+            <rulesStrings>
+                <li>memeAdjective->mantled</li>
+                <li>memeHyphenPrefix->mantled</li>
+                <li>memeConcept->mantled</li>
+                <li>memeLeaderNoun->mantled</li>
+            </rulesStrings>
+        </generalRules>
+        <descriptionMaker>
+            <rules>
+                <rulesStrings>
+                    <!-- mythic origin -->
+                    <li>creation(tag=meme_Nudism)           ->When the dunes swallowed the old world, our ancestors crossed the sands beneath burning twin suns. To endure the storms, they crafted their first mantles, and through them found clarity, purpose, and kinship.</li>
+                    <li>episode(uses=1,tag=meme_Nudism)     ->A traveler removed their mantle and wandered alone into the wastes. The sands blinded them, and the winds swallowed their path. When they returned, they wore their mantle proudly and taught that no Va'ji walks uncovered.</li>
+                    <!-- theist founder -->
+                    <li>intro(tag=meme_Nudism)              ->On the windswept [place_summary] [place_name], a tradition began where travelers gathered at the [altarRoomLabel] to maintain and decorate their mantles before great journeys.</li>
+                    <li>conflict(tag=meme_Nudism)           ->A shortsighted [foeLeader] declared that mantles were burdens of the past and ordered them abandoned.</li>
+                    <li>founderJoin(tag=meme_Nudism)        ->[founderName] stood before the [place_powerCenter], fastened [founder_possessive] mantle, and declared that memory, survival, and identity travel together.</li>
+                    <li>victory(tag=meme_Nudism)            ->When the storms came, those who kept their mantles endured. [founderName]'s wisdom spread, and the [foeLeader] abandoned their pride.</li>
+                    <!-- ideological founder -->
+                    <li>setup(tag=meme_Nudism)              ->[founderName] wandered between settlements and learned that every mantle carried a story. Inspired by this shared tradition, [founder_pronoun] united others beneath a common purpose.</li>
+                    <li>story(uses=1,tag=meme_Nudism)       ->[founderName] taught that a Va'ji's mantle is not vanity, but memory — a symbol of adaptation, labor, and belonging.</li>
+                    <!-- cultural lesson -->
+                    <li>lessonIntro(tag=meme_Nudism)         ->Crossing the dunes beside seasoned travelers, I learned what every Va'ji eventually understands - </li>
+                    <li>lesson(tag=meme_Nudism)              ->a mantle is more than protection; it is the mark that we endure together</li>
+                    <li>lessonReinforcement(tag=meme_Nudism) ->When you see one of us adjusting a visor before the storm, know they honor those who crossed the sands before them.</li>
+                    <!-- archist -->
+                    <li>archistBasis(tag=meme_Nudism)       ->The archotechs revealed that survival belongs to those who adapt. Our mantles are proof that wisdom and invention shape the future.</li>
+                    <li>archistFact(tag=meme_Nudism)        ->Technology without purpose is meaningless; the mantle joins memory, utility, and self into one form.</li>
+                    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek those who endure harsh worlds and reshape themselves without abandoning who they are.</li>
+                    <!-- animist -->
+                    <li>animistFact(tag=meme_Nudism)        ->The desert winds remember every traveler. A well-kept mantle honors the spirits of those who crossed the dunes before us.</li>
+                </rulesStrings>
+            </rules>
+        </descriptionMaker>
+        <symbolPacks>
+            <li>
+                <ideoName>mantled</ideoName>
+                <theme>technology</theme>
+                <adjective>va'ji</adjective>
+                <member>beast</member>
+            </li>
+        </symbolPacks>
     </MemeDef>
 
 </Defs>

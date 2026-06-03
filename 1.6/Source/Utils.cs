@@ -20,11 +20,8 @@ namespace MantledBeasts
         }
 
         //oca - all of the below code with all of the comments is in the original anthrosonae source; highly indicitive of ai coding
-        // due to the way the comments look and the lack of similar comments elsewhere.
-        // that's really fucking funny,  i've never expected taran of all people to use ai for code so seemingly basic
-        // unless, of course, it wasn't taran? but i'm speculating at that point and just rambling into a comment for
-        // nobody to come across. oh welll.
-        // if anyone reads this dm me lol it'll be funny i think
+        // erin asked taran about it, he said he just roughly copied it from an external source.
+        // happens!
 
         // Calculate the brightness level (0 to 100) from a color
         public static int CalculateBrightnessLevel(Color color)
