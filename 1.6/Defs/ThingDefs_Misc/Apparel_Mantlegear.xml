@@ -3,6 +3,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>OCARINA_Apparel_TribalMantlegear</defName>
+        <tickerType>Normal</tickerType>
         <label>tribal mantlegear</label>
         <description>A set of fabric or leather body straps and a rudimentary wooden chest piece. Provides little protection in any meaningful capacity, but does make one feel stronger.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
         <graphicData>
@@ -66,10 +67,18 @@
         <tradeTags>
             <li>BasicClothing</li>
         </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_TribalMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>OCARINA_Apparel_IndustrialMantlegear</defName>
+        <tickerType>Normal</tickerType>
         <label>mantlegear</label>
         <description>A set of fabric or leather body straps and an industrial chest piece. While not being as protective as something like a t-shirt, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
         <recipeMaker>
@@ -133,6 +142,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>OCARINA_Apparel_ArmoredMantlegear</defName>
+        <tickerType>Normal</tickerType>
         <label>armored mantlegear</label>
         <description>A set of fabric or leather body straps and an armored chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the armored mantlegear is generally more protective at the cost of the nicer bonuses that come with the industrial set.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
         <recipeMaker>
@@ -202,6 +212,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>OCARINA_Apparel_AegisciteMantlegear</defName>
+        <tickerType>Normal</tickerType>
         <label>aegiscite mantlegear</label>
         <description>A set of fabric or leather body straps and an advanced chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the aegiscite mantlegear is particularly capable, being effectively a combination of industrial and armored mantlegear.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
         <recipeMaker>
@@ -249,7 +260,7 @@
                 <li>OnSkin</li>
             </layers>
             <tags>
-                <li>IndustrialBasic</li>
+                <li>IndustrialAdvanced</li>
                 <li>OCARINA_ApparelMantle</li>
             </tags>
             <defaultOutfitTags>
@@ -267,8 +278,10 @@
 
     <ThingDef ParentName="ApparelBase">
         <defName>OCARINA_Apparel_ArchotechMantlegear</defName>
+        <tickerType>Normal</tickerType>
         <label>archotech mantlegear</label>
         <description>A set of fabric or leather body straps and an advanced chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the archotech mantlegear is, as the name implies, created by an archotech. It is a supreme upgrade compared to even the aegiscite mantlegear, and should be cherished.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/ArchotechMantlegear/Naked</texPath>
             <graphicClass>Graphic_Single</graphicClass>

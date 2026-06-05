@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <HediffDef Name="OCARINA_MantledBeastsMantlegearHediffBase" ParentName="AddedBodyPartBase" Abstract="True">
+        <label>mantlegear hediff</label>
+        <description>Hidden hediff used for displaying the tail textures on Va'ji. You shouldn't be reading this!</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+    </HediffDef>
+
+    <!-- <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
+        <defName>OCARINA_TribalMantlegearHediff</defName>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <minSeverity>0</minSeverity>
+            </li>
+        </stages>
+        <renderNodeProperties>
+            <li Class="PawnRenderNodeProperties_Eye">
+                <workerClass>PawnRenderNodeWorker_HediffEye</workerClass>
+                <texPath>Things/Pawn/Wounds/ArchotechEye</texPath>
+                <parentTagDef>Head</parentTagDef>
+                <drawSize>0.15</drawSize>
+                <drawData>
+                    <defaultData>
+                        <layer>56</layer>
+                        <offset>(0, 0, -0.25)</offset>
+                    </defaultData>
+                    <dataWest>
+                        <flip>true</flip>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef> -->
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>OCARINA_TribalMantlegearHediff</defName>
+        <label>archotech eye</label>
+        <labelNoun>an archotech eye</labelNoun>
+        <description>An installed archotech eye. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Its internal workings are a mystery to human minds.</description>
+        <descriptionHyperlinks>
+            <ThingDef>ArchotechEye</ThingDef>
+        </descriptionHyperlinks>
+        <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.50</partEfficiency>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+        <renderNodeProperties>
+            <li Class="PawnRenderNodeProperties">
+                <workerClass>PawnRenderNodeWorker_Hediff</workerClass>
+                <texPath>Things/Pawn/Humanlike/Apparel/TribalMantlegear/Tail/Tail</texPath>
+                <parentTagDef>Head</parentTagDef>
+                <drawSize>1.0</drawSize>
+                <drawData>
+                    <defaultData>
+                        <layer>120</layer>
+                        <offset>(0, 0, 0)</offset>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef>
+
+</Defs>

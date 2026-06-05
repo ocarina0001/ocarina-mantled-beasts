@@ -81,28 +81,28 @@
                 <!-- Normal fights, standard mix -->
                 <kindDef>Combat</kindDef>
                 <options>
-                    <Villager>5</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
-                    <Town_Councilman>10</Town_Councilman>
+                    <OCARINA_MantledBeastsVillager>5</OCARINA_MantledBeastsVillager>
+                    <OCARINA_MantledBeastsTown_Guard>10</OCARINA_MantledBeastsTown_Guard>
+                    <OCARINA_MantledBeastsGrenadier_Destructive>1.5</OCARINA_MantledBeastsGrenadier_Destructive>
+                    <OCARINA_MantledBeastsMercenary_Slasher>7</OCARINA_MantledBeastsMercenary_Slasher>
+                    <OCARINA_MantledBeastsMercenary_Gunner>10</OCARINA_MantledBeastsMercenary_Gunner>
+                    <OCARINA_MantledBeastsMercenary_Elite>10</OCARINA_MantledBeastsMercenary_Elite>
+                    <OCARINA_MantledBeastsTown_Councilman>10</OCARINA_MantledBeastsTown_Councilman>
                 </options>
             </li>
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
-                    <Villager>20</Villager>
+                    <OCARINA_MantledBeastsVillager>20</OCARINA_MantledBeastsVillager>
                     <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
-                    <Town_Guard>10</Town_Guard>
-                    <Town_Councilman>10</Town_Councilman>
+                    <OCARINA_MantledBeastsTown_Guard>10</OCARINA_MantledBeastsTown_Guard>
+                    <OCARINA_MantledBeastsTown_Councilman>10</OCARINA_MantledBeastsTown_Councilman>
                 </options>
             </li>
             <li>
                 <kindDef>Trader</kindDef>
                 <traders>
-                    <Town_Trader>1</Town_Trader>
+                    <OCARINA_MantledBeastsTown_Trader>1</OCARINA_MantledBeastsTown_Trader>
                 </traders>
                 <carriers>
                     <Muffalo>6</Muffalo>
@@ -111,24 +111,24 @@
                     <Elephant>1</Elephant>
                 </carriers>
                 <guards>
-                    <Villager>3</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
+                    <OCARINA_MantledBeastsVillager>3</OCARINA_MantledBeastsVillager>
+                    <OCARINA_MantledBeastsTown_Guard>10</OCARINA_MantledBeastsTown_Guard>
+                    <OCARINA_MantledBeastsGrenadier_Destructive>1.5</OCARINA_MantledBeastsGrenadier_Destructive>
+                    <OCARINA_MantledBeastsMercenary_Slasher>7</OCARINA_MantledBeastsMercenary_Slasher>
+                    <OCARINA_MantledBeastsMercenary_Gunner>10</OCARINA_MantledBeastsMercenary_Gunner>
+                    <OCARINA_MantledBeastsMercenary_Elite>10</OCARINA_MantledBeastsMercenary_Elite>
                 </guards>
             </li>
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
-                    <Villager>10</Villager>
-                    <Town_Guard>10</Town_Guard>
-                    <Grenadier_Destructive>1.5</Grenadier_Destructive>
-                    <Mercenary_Slasher>7</Mercenary_Slasher>
-                    <Mercenary_Gunner>10</Mercenary_Gunner>
-                    <Mercenary_Elite>10</Mercenary_Elite>
-                    <Town_Councilman>10</Town_Councilman>
+                    <OCARINA_MantledBeastsVillager>10</OCARINA_MantledBeastsVillager>
+                    <OCARINA_MantledBeastsTown_Guard>10</OCARINA_MantledBeastsTown_Guard>
+                    <OCARINA_MantledBeastsGrenadier_Destructive>1.5</OCARINA_MantledBeastsGrenadier_Destructive>
+                    <OCARINA_MantledBeastsMercenary_Slasher>7</OCARINA_MantledBeastsMercenary_Slasher>
+                    <OCARINA_MantledBeastsMercenary_Gunner>10</OCARINA_MantledBeastsMercenary_Gunner>
+                    <OCARINA_MantledBeastsMercenary_Elite>10</OCARINA_MantledBeastsMercenary_Elite>
+                    <OCARINA_MantledBeastsTown_Councilman>10</OCARINA_MantledBeastsTown_Councilman>
                 </options>
             </li>
             <li MayRequire="Ludeon.RimWorld.Ideology">

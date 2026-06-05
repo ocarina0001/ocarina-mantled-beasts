@@ -3,9 +3,8 @@ Va'ji
 "The Spark" faction leader name
 
 todo:
-- mantlegear (apparel that applies a hediff that checks if the pawn has the mantled beast tail for custom graphic. mantlegear itself should probably be on a new clothing layer, above middle but below outer, otherwise do skin and hope for the best) types (tribal, industrial, aegiscite, armored, archotech) (hediffs when worn to display tail texture)
-- mantlegear tail textures
-- custom pawnkinds for faction raids and whatnot
+- mantlegear hediffs and tail textures
+- ideology icons
 - vaji mushrooms (growable, sensitive, definitely requires c# for the water and underground requirements. mushroom gas should behave similar to rot stink)
 
 Apparel:

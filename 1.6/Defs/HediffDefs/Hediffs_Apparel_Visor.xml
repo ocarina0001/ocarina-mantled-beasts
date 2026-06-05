@@ -3,8 +3,8 @@
 
     <HediffDef>
         <defName>OCARINA_AegisciteMantleHediff</defName>
-        <label>aegiscite mantle</label>
-        <description>The benefits of the aegiscite mantle.</description>
+        <label>aegiscite visor</label>
+        <description>The benefits of the aegiscite visor.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
         <scenarioCanAdd>false</scenarioCanAdd>
@@ -30,8 +30,8 @@
 
     <HediffDef>
         <defName>OCARINA_IndustrialMantleHediff</defName>
-        <label>industrial mantle</label>
-        <description>The benefits of the industrial mantle.</description>
+        <label>industrial visor</label>
+        <description>The benefits of the industrial visor.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
         <scenarioCanAdd>false</scenarioCanAdd>
@@ -57,8 +57,8 @@
 
     <HediffDef>
         <defName>OCARINA_ArchotechMantleHediff</defName>
-        <label>archotech mantle</label>
-        <description>The benefits of the archotech mantle.</description>
+        <label>archotech visor</label>
+        <description>The benefits of the archotech visor.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
         <scenarioCanAdd>false</scenarioCanAdd>
