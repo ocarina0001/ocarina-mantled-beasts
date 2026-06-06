@@ -54,7 +54,7 @@
     <IssueDef>
         <defName>OCARINA_VajiMantlegear</defName>
         <label>va'ji mantlegear</label>
-        <iconPath>UI/Issues/Nudity_Male</iconPath>
+        <iconPath>UI/Issues/VajiIssue</iconPath>
     </IssueDef>
 
     <PreceptDef>

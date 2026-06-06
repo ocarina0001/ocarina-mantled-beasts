@@ -2,8 +2,8 @@
 <Defs>
 
     <HediffDef Name="OCARINA_MantledBeastsMantlegearHediffBase" ParentName="AddedBodyPartBase" Abstract="True">
-        <label>mantlegear hediff</label>
-        <description>Hidden hediff used for displaying the tail textures on Va'ji. You shouldn't be reading this!</description>
+        <label>mantlegear tail</label>
+        <description>The tail of the mantlegear; non-Va'ji don't wear the tail piece, but Va'ji do.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
         <scenarioCanAdd>false</scenarioCanAdd>
@@ -38,34 +38,179 @@
         </renderNodeProperties>
     </HediffDef> -->
 
-    <HediffDef ParentName="AddedBodyPartBase">
+    <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
         <defName>OCARINA_TribalMantlegearHediff</defName>
-        <label>archotech eye</label>
-        <labelNoun>an archotech eye</labelNoun>
-        <description>An installed archotech eye. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Its internal workings are a mystery to human minds.</description>
-        <descriptionHyperlinks>
-            <ThingDef>ArchotechEye</ThingDef>
-        </descriptionHyperlinks>
-        <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
-        <addedPartProps>
-            <solid>true</solid>
-            <partEfficiency>1.50</partEfficiency>
-            <betterThanNatural>true</betterThanNatural>
-        </addedPartProps>
         <renderNodeProperties>
-            <li Class="PawnRenderNodeProperties">
-                <workerClass>PawnRenderNodeWorker_Hediff</workerClass>
+            <li>
+                <workerClass>MantledBeasts.PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored</workerClass>
+                <nodeClass>MantledBeasts.PawnRenderNode_ClothingColored</nodeClass>
+                <!-- <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass> -->
                 <texPath>Things/Pawn/Humanlike/Apparel/TribalMantlegear/Tail/Tail</texPath>
-                <parentTagDef>Head</parentTagDef>
-                <drawSize>1.0</drawSize>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
                 <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
-                        <layer>120</layer>
-                        <offset>(0, 0, 0)</offset>
+                        <layer>1</layer>
                     </defaultData>
+                    <dataNorth>
+                        <offset>(0.05,0,-0.70)</offset>
+                        <layer>91</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.55,0,-0.40)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.55,0,-0.40)</offset>
+                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
     </HediffDef>
-
+    <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
+        <defName>OCARINA_IndustrialMantlegearHediff</defName>
+        <renderNodeProperties>
+            <li>
+                <workerClass>MantledBeasts.PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored</workerClass>
+                <nodeClass>MantledBeasts.PawnRenderNode_ClothingColored</nodeClass>
+                <!-- <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass> -->
+                <texPath>Things/Pawn/Humanlike/Apparel/IndustrialMantlegear/Tail/Tail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.05,0,-0.70)</offset>
+                        <layer>91</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.55,0,-0.40)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.55,0,-0.40)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef>
+    <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
+        <defName>OCARINA_ArmoredMantlegearHediff</defName>
+        <renderNodeProperties>
+            <li>
+                <workerClass>MantledBeasts.PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored</workerClass>
+                <nodeClass>MantledBeasts.PawnRenderNode_ClothingColored</nodeClass>
+                <!-- <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass> -->
+                <texPath>Things/Pawn/Humanlike/Apparel/ArmoredMantlegear/Tail/Tail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.05,0,-0.70)</offset>
+                        <layer>91</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.55,0,-0.40)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.55,0,-0.40)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef>
+    <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
+        <defName>OCARINA_AegisciteMantlegearHediff</defName>
+        <renderNodeProperties>
+            <li>
+                <workerClass>MantledBeasts.PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored</workerClass>
+                <nodeClass>MantledBeasts.PawnRenderNode_ClothingColored</nodeClass>
+                <!-- <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass> -->
+                <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantlegear/Tail/Tail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.05,0,-0.70)</offset>
+                        <layer>91</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.55,0,-0.40)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.55,0,-0.40)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef>
+    <HediffDef ParentName="OCARINA_MantledBeastsMantlegearHediffBase">
+        <defName>OCARINA_ArchotechMantlegearHediff</defName>
+        <renderNodeProperties>
+            <li>
+                <workerClass>MantledBeasts.PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored</workerClass>
+                <nodeClass>MantledBeasts.PawnRenderNode_ClothingColored</nodeClass>
+                <!-- <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass> -->
+                <texPath>Things/Pawn/Humanlike/Apparel/ArchotechMantlegear/Tail/Tail</texPath>
+                <shaderTypeDef>CutoutComplex</shaderTypeDef>
+                <colorType>Custom</colorType>
+                <overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh,Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0.05,0,-0.70)</offset>
+                        <layer>91</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(-0.1,0,-0.18)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(-0.55,0,-0.40)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0.55,0,-0.40)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </HediffDef>
 </Defs>

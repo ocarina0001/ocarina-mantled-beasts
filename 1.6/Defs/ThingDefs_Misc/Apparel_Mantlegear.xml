@@ -9,6 +9,7 @@
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/TribalMantlegear/Naked</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <techLevel>Neolithic</techLevel>
         <costStuffCount>30</costStuffCount>
@@ -88,6 +89,7 @@
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/IndustrialMantlegear/Naked</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <costStuffCount>30</costStuffCount>
         <costList>
@@ -138,6 +140,13 @@
         <tradeTags>
             <li>BasicClothing</li>
         </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_IndustrialMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="ApparelMakeableBase">
@@ -158,6 +167,7 @@
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/ArmoredMantlegear/Naked</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <costStuffCount>35</costStuffCount>
         <costList>
@@ -208,6 +218,13 @@
         <tradeTags>
             <li>BasicClothing</li>
         </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_ArmoredMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="ApparelMakeableBase">
@@ -222,6 +239,7 @@
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantlegear/Naked</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <costStuffCount>10</costStuffCount>
         <costList>
@@ -274,6 +292,13 @@
         <tradeTags>
             <li>BasicClothing</li>
         </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_AegisciteMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="ApparelBase">
@@ -324,6 +349,13 @@
         <tradeTags Inherit="false">
             <li>Artifact</li>
         </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_ArchotechMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

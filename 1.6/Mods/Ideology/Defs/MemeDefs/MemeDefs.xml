@@ -5,7 +5,7 @@
         <defName>OCARINA_Mantles</defName>
         <label>va'ji attire</label>
         <description>Va'ji should wear their visors and mantlegear.</description>
-        <iconPath>UI/Memes/Nudism</iconPath>
+        <iconPath>UI/Memes/VajiAttire</iconPath>
         <groupDef>Misc</groupDef>
         <impact>1</impact>
         <renderOrder>999</renderOrder>
@@ -13,6 +13,8 @@
         <requireOne>
             <li>
                 <li>OCARINA_Vaji_Mantle_Mandatory</li>
+            </li>
+            <li>
                 <li>OCARINA_Vaji_Mantlegear_Mandatory</li>
             </li>
         </requireOne>

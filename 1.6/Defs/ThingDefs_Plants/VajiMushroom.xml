@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="CavePlantBase">
+        <defName>OCARINA_VajiMushroom</defName>
+        <label>aegiscian mushroom</label>
+        <description>A larger blue biolumenescient mushroom typically only found on the planet Aegis, this particular strand has been genetically modified to be easier to cultivate on other planets, and to be cultivated to begin with. The result is a mushroom that can barely sustain itself with its own spread and an overall lesser taste when used in a culinary setting.\n\nThe aegiscian mushroom is very difficult to grow, requiring the specific conditions of being grown underground, being sheltered from light, and being waterside. Once planted, the mushroom will emit toxic spore clouds that can somewhat quickly incapacitate those who are unprepared. It is recommended for harvesters to wear a mask.</description>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Beauty>4</Beauty>
+            <BeautyOutdoors>8</BeautyOutdoors>
+            <Nutrition>0.5</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/VajiMushroom</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <selectable>true</selectable>
+        <neverMultiSelect>false</neverMultiSelect>
+        <pathCost>64</pathCost>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.01</fertilityMin>
+            <fertilitySensitivity>0.15</fertilitySensitivity>
+            <growDays>21</growDays>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestYield>16</harvestYield>
+            <harvestTag>Standard</harvestTag>
+            <harvestedThingDef>RawFungus</harvestedThingDef>
+            <maxMeshCount>4</maxMeshCount>
+            <neverBlightable>true</neverBlightable>
+            <visualSizeRange>0.7~1.2</visualSizeRange>
+            <topWindExposure>0.05</topWindExposure>
+            <purpose>Food</purpose>
+            <pollution>Any</pollution>
+        </plant>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>1.9</glowRadius>
+                <glowColor>(151,190,219,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

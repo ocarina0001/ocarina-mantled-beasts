@@ -7,7 +7,7 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>ocarina.mantledbeasts</packageId>
-    <description>todo</description>
+    <description>This mod adds an underappreciated furry species known as Mantled Beasts, created by Honeymoss.</description>
     <modIconPath IgnoreIfNoMatchingField="True">UI/Logo_MantledBeasts</modIconPath>
     <modDependencies>
         <li>

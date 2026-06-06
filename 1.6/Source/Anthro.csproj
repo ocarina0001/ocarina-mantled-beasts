@@ -68,6 +68,8 @@
     <Compile Include="Patch_Apparel_WornGraphicPath.cs" />
     <Compile Include="PawnGenerator_GeneratePawn_Patch.cs" />
     <Compile Include="Patch_CanEquip.cs" />
+    <Compile Include="PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored.cs" />
+    <Compile Include="PawnRenderNode_ClothingColored.cs" />
     <Compile Include="ThoughtWorker_Precept_VajiNotWearingMantle.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="Building_StylingStation_GetFloatMenuOptions_Patch.cs" />
