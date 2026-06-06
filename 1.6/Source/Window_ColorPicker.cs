@@ -83,7 +83,7 @@ namespace MantledBeasts
         {
             using (new TextBlock(GameFont.Medium))
             {
-                TaggedString taggedString = "ColorPicker.ChangeFurColors".Translate().CapitalizeFirst();
+                TaggedString taggedString = "MantledBeasts_ColorPicker.ChangeFurColors".Translate().CapitalizeFirst();
                 RectDivider rectDivider = layout.NewRow(Text.CalcHeight(taggedString, layout.Rect.width));
                 GUI.SetNextControlName(Dialog_ColorPickerBase.focusableControlNames[0]);
                 Widgets.Label(rectDivider, taggedString);
@@ -132,7 +132,7 @@ namespace MantledBeasts
                 hexValue = "#" + ColorUtility.ToHtmlStringRGB(color);
             var hexRectLabel = new Rect(layout.Rect.x, aggregator.Rect.yMax + 4, 50, 32);
             using (new TextBlock(TextAnchor.MiddleLeft))
-                Widgets.Label(hexRectLabel, "ColorPicker.HexCode".Translate());
+                Widgets.Label(hexRectLabel, "MantledBeasts_ColorPicker.HexCode".Translate());
             var hexRect = new Rect(hexRectLabel.xMax, hexRectLabel.y, 125 - 50, 32);
             string oldHex = hexValue;
             hexValue = Widgets.TextField(hexRect, hexValue).Trim();
@@ -144,7 +144,7 @@ namespace MantledBeasts
 
         private static void ColorReadback(Rect rect, Color color)
         {
-            TaggedString label = "CurrentColor".Translate().CapitalizeFirst();
+            TaggedString label = "MantledBeasts_CurrentColor".Translate().CapitalizeFirst();
             float labelWidth = Mathf.Max(100f, label.GetWidthCached());
             RectDivider rectDivider = new RectDivider(rect, 195906069);
             RectDivider row = rectDivider.NewRow(Text.LineHeight);
@@ -236,9 +236,9 @@ namespace MantledBeasts
                 Color readbackColor = colorTwoChosen ? colorTwo : colorOne;
                 ColorReadback(readbackRow.Rect, readbackColor);
                 {
-                    float labelWidth = Mathf.Max(100f, "CurrentColor".Translate().CapitalizeFirst().GetWidthCached(), "OldColor".Translate().CapitalizeFirst().GetWidthCached());
+                    float labelWidth = Mathf.Max(100f, "MantledBeasts_CurrentColor".Translate().CapitalizeFirst().GetWidthCached(), "MantledBeasts_OldColor".Translate().CapitalizeFirst().GetWidthCached());
                     RectDivider maskRow = layout.NewRow(24f, VerticalJustification.Top);
-                    Widgets.Label(maskRow.NewCol(labelWidth), "Mask:");
+                    Widgets.Label(maskRow.NewCol(labelWidth), "MantledBeasts_Mask".Translate().CapitalizeFirst());
                     Rect maskBtnRect = maskRow.NewCol(140f);
                     string maskBtnText = selectedMaskIndex >= 0 && selectedMaskIndex < colorMasks.Count ? colorMasks[selectedMaskIndex].maskName : (colorMasks.Any() ? colorMasks[0].maskName : "None");
                     if (colorMasks.Any())
@@ -267,9 +267,9 @@ namespace MantledBeasts
                 }
                 BottomButtons(ref layout);
                 var buttonsRect = new Rect(inRect.x, portrait.yMax + 10, 117, 24);
-                Widgets.Label(buttonsRect, "ColorPicker.ColorChannel".Translate());
+                Widgets.Label(buttonsRect, "MantledBeasts_ColorPicker.ColorChannel".Translate());
                 buttonsRect = new Rect(buttonsRect.xMax, buttonsRect.y, 50, buttonsRect.width);
-                var colorChannel = colorTwoChosen ? "ColorPicker.ColorB".Translate() : "ColorPicker.ColorA".Translate();
+                var colorChannel = colorTwoChosen ? "MantledBeasts_ColorPicker.ColorB".Translate() : "MantledBeasts_ColorPicker.ColorA".Translate();
                 Widgets.Label(buttonsRect, colorChannel);
                 if (Widgets.RadioButton(new Vector2(buttonsRect.xMax, buttonsRect.y), !colorTwoChosen))
                     colorTwoChosen = false;

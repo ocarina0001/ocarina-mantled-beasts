@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Apparel_MoodTexture.cs" />
+    <Compile Include="CompGasOverTime.cs" />
+    <Compile Include="CompProperties_GasOverTime.cs" />
     <Compile Include="DefModExtension_ClothingRestriction.cs" />
     <Compile Include="FurGene.cs" />
     <Compile Include="Patch_Apparel_WornGraphicPath.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Patch_CanEquip.cs" />
     <Compile Include="PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored.cs" />
     <Compile Include="PawnRenderNode_ClothingColored.cs" />
+    <Compile Include="Plant_VajiMushroom.cs" />
     <Compile Include="ThoughtWorker_Precept_VajiNotWearingMantle.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="Building_StylingStation_GetFloatMenuOptions_Patch.cs" />
@@ -78,7 +81,6 @@
     <Compile Include="FurColorDef.cs" />
     <Compile Include="FurColors.cs" />
     <Compile Include="JobDriver_ChangeFur.cs" />
-    <Compile Include="PawnEditor_CompatPatch.cs" />
     <Compile Include="PawnRenderNode_Fur_GraphicFor_Patch.cs" />
     <Compile Include="PawnRenderNode_GraphicFor_Patch.cs" />
     <Compile Include="PawnRenderNode_Head_GraphicFor_Patch.cs" />

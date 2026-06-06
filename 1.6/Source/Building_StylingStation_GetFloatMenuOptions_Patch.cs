@@ -19,7 +19,7 @@ namespace MantledBeasts
                 {
                     FurGene furGene = GetFurGene(selPawn);
                     if (furGene != null)
-                        yield return FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("ColorPicker.ChangeFur".Translate().CapitalizeFirst(), delegate{selPawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(DefsOf.OCARINA_ChangeBeastFur, __instance), JobTag.Misc); }), selPawn, __instance);
+                        yield return FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("MantledBeasts_ColorPicker.ChangeFur".Translate().CapitalizeFirst(), delegate{selPawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(DefsOf.OCARINA_ChangeBeastFur, __instance), JobTag.Misc); }), selPawn, __instance);
                 }
             }
         }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OCARINA_ConsumedVajiMushroom</defName>
+        <durationDays>0.5</durationDays>
+        <stages>
+            <li>
+                <label>consumed aegiscian mushroom</label>
+                <description>I ate an incredibly tasty delicacy!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

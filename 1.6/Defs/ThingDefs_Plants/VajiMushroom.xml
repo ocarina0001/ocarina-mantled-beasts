@@ -4,7 +4,9 @@
     <ThingDef ParentName="CavePlantBase">
         <defName>OCARINA_VajiMushroom</defName>
         <label>aegiscian mushroom</label>
-        <description>A larger blue biolumenescient mushroom typically only found on the planet Aegis, this particular strand has been genetically modified to be easier to cultivate on other planets, and to be cultivated to begin with. The result is a mushroom that can barely sustain itself with its own spread and an overall lesser taste when used in a culinary setting.\n\nThe aegiscian mushroom is very difficult to grow, requiring the specific conditions of being grown underground, being sheltered from light, and being waterside. Once planted, the mushroom will emit toxic spore clouds that can somewhat quickly incapacitate those who are unprepared. It is recommended for harvesters to wear a mask.</description>
+        <description>A larger blue biolumenescient mushroom typically only found on the planet Aegis, this particular strand has been genetically modified to be easier to cultivate on other planets, and to be cultivated to begin with. The result is a mushroom that can barely sustain itself with its own spread and an overall lesser taste when used in a culinary setting.\n\nThe aegiscian mushroom is very difficult to grow, requiring the specific conditions of being grown underground, being sheltered from light, and being waterside. Once planted, the mushroom will emit toxic spore clouds that can relatively quickly incapacitate those who are unprepared. It is recommended for harvesters to wear a mask and other PPE.</description>
+        <thingClass>MantledBeasts.Plant_VajiMushroom</thingClass>
+        <tickerType>Normal</tickerType>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
             <Beauty>4</Beauty>
@@ -24,20 +26,29 @@
             <fertilitySensitivity>0.15</fertilitySensitivity>
             <growDays>21</growDays>
             <dieIfLeafless>true</dieIfLeafless>
-            <harvestYield>16</harvestYield>
+            <harvestYield>8</harvestYield>
             <harvestTag>Standard</harvestTag>
-            <harvestedThingDef>RawFungus</harvestedThingDef>
+            <harvestedThingDef>OCARINA_RawVajiMushroom</harvestedThingDef>
             <maxMeshCount>4</maxMeshCount>
             <neverBlightable>true</neverBlightable>
             <visualSizeRange>0.7~1.2</visualSizeRange>
             <topWindExposure>0.05</topWindExposure>
             <purpose>Food</purpose>
             <pollution>Any</pollution>
+            <sowTags>
+                <li>Ground</li>
+            </sowTags>
+            <cavePlant>true</cavePlant>
         </plant>
         <comps>
             <li Class="CompProperties_Glower">
                 <glowRadius>1.9</glowRadius>
                 <glowColor>(151,190,219,0)</glowColor>
+            </li>
+            <li Class="MantledBeasts.CompProperties_GasOverTime">
+                <type>ToxGas</type>
+                <gasAmount>10</gasAmount>
+                <tickInterval>600</tickInterval>
             </li>
         </comps>
     </ThingDef>

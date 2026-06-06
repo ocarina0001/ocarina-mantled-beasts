@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <MantledBeasts_ColorPicker.PasteHex>Paste HEX</MantledBeasts_ColorPicker.PasteHex>
+    <MantledBeasts_ColorPicker.ColorChannel>Color channel</MantledBeasts_ColorPicker.ColorChannel>
+    <MantledBeasts_ColorPicker.ColorA>First</MantledBeasts_ColorPicker.ColorA>
+    <MantledBeasts_ColorPicker.ColorB>Second</MantledBeasts_ColorPicker.ColorB>
+    <MantledBeasts_ColorPicker.HexCode>Hex</MantledBeasts_ColorPicker.HexCode>
+    <MantledBeasts_ColorPicker.Lum>Lum</MantledBeasts_ColorPicker.Lum>
+    <MantledBeasts_ColorPicker.ChangeFur>Change fur</MantledBeasts_ColorPicker.ChangeFur>
+    <MantledBeasts_ColorPicker.ChangeFurColors>Change fur colors</MantledBeasts_ColorPicker.ChangeFurColors>
+
+    <MantledBeasts_CurrentColor>Current color</MantledBeasts_CurrentColor>
+    <MantledBeasts_OldColor>Old color</MantledBeasts_OldColor>
+    <MantledBeasts_Mask>Mask:</MantledBeasts_Mask>
+
+    <MantledBeasts_RequiresRoofToGrow>Requires roof to grow</MantledBeasts_RequiresRoofToGrow>
+    <MantledBeasts_RequiresAdjacentWaterToGrow>Requires adjacent water</MantledBeasts_RequiresAdjacentWaterToGrow>
+</LanguageData>
