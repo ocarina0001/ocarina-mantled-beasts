@@ -47,7 +47,7 @@
             </li>
             <li Class="MantledBeasts.CompProperties_GasOverTime">
                 <type>ToxGas</type>
-                <gasAmount>10</gasAmount>
+                <gasAmount>32</gasAmount>
                 <tickInterval>600</tickInterval>
             </li>
         </comps>

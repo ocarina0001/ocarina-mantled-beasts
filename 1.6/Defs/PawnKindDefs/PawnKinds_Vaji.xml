@@ -11,6 +11,7 @@
             <li>IndustrialBasic</li>
             <li>IndustrialAdvanced</li>
             <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </apparelTags>
     </PawnKindDef>
 
@@ -52,6 +53,8 @@
         <apparelTags>
             <li>IndustrialMilitaryBasic</li>
             <li>BeltDefensePop</li>
+            <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </apparelTags>
         <apparelMoney>400~600</apparelMoney>
         <apparelAllowHeadgearChance>0.70</apparelAllowHeadgearChance>
@@ -91,6 +94,8 @@
             <li>IndustrialMilitaryBasic</li>
             <li>IndustrialMilitaryAdvanced</li>
             <li>BeltDefensePop</li>
+            <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </apparelTags>
         <apparelRequired>
             <li>OCARINA_Apparel_AegisciteMantle</li>
@@ -126,6 +131,8 @@
         <apparelTags>
             <li>IndustrialMilitaryBasic</li>
             <li>BeltDefensePop</li>
+            <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </apparelTags>
         <apparelRequired>
             <li>OCARINA_Apparel_AegisciteMantle</li>

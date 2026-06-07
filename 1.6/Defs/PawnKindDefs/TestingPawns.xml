@@ -6,10 +6,11 @@
         <defaultFactionDef>PlayerColony</defaultFactionDef>
         <chemicalAddictionChance>0.06</chemicalAddictionChance>
         <apparelTags>
-            <li>IndustrialBasic</li>
+            <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </apparelTags>
-        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-        <apparelMoney>350~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelMoney>300~2000</apparelMoney>
         <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
         <techHediffsChance>0.03</techHediffsChance>
         <techHediffsMoney>50~800</techHediffsMoney>
@@ -31,6 +32,17 @@
                 <OCARINA_MantledBeasts>999</OCARINA_MantledBeasts>
             </xenotypeChances>
         </xenotypeSet>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="OCARINA_MantledBeastsTestPawnKindBase">
+        <defName>OCARINA_MantledBeastColonistNude</defName>
+        <xenotypeSet>
+            <xenotypeChances>
+                <OCARINA_MantledBeasts>999</OCARINA_MantledBeasts>
+            </xenotypeChances>
+        </xenotypeSet>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>0</apparelMoney>
     </PawnKindDef>
 
 </Defs>

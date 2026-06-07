@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ScenarioDef ParentName="Crashlanded">
+        <defName>OCARINA_MantledBeastsCrashlanded</defName>
+        <label>Unmantled beasts</label>
+        <description>The four of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. In the hurry, you couldn't reach your visors nor mantlegear from the storage facilities. You will have to find replacements as soon as possible.</description>
+        <scenario>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>OCARINA_MantledBeastsPlayerColony</factionDef>
+            </playerFaction>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>4</pawnChoiceCount>
+                    <leftBehindPawnKind>OCARINA_MantledBeastColonistNude</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>OCARINA_MantledBeastColonistNude</kindDef>
+                            <count>4</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

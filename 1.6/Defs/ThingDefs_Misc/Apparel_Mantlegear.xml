@@ -104,6 +104,7 @@
             <li>ApparelMisc</li>
         </thingCategories>
         <statBases>
+            <MarketValue>300</MarketValue>
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToMake>1000</WorkToMake>
             <Mass>0.15</Mass>
@@ -128,7 +129,6 @@
                 <li>OnSkin</li>
             </layers>
             <tags>
-                <li>IndustrialBasic</li>
                 <li>OCARINA_ApparelMantle</li>
             </tags>
             <defaultOutfitTags>
@@ -184,6 +184,7 @@
             <li>ApparelMisc</li>
         </thingCategories>
         <statBases>
+            <MarketValue>400</MarketValue>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>1200</WorkToMake>
             <Mass>0.30</Mass>
@@ -208,7 +209,6 @@
             </layers>
             <tags>
                 <li>OCARINA_ApparelMantle</li>
-                <li>IndustrialBasic</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>
@@ -258,6 +258,7 @@
             <li>ApparelMisc</li>
         </thingCategories>
         <statBases>
+            <MarketValue>800</MarketValue>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToMake>2000</WorkToMake>
             <Mass>0.30</Mass>
@@ -282,7 +283,6 @@
                 <li>OnSkin</li>
             </layers>
             <tags>
-                <li>IndustrialAdvanced</li>
                 <li>OCARINA_ApparelMantle</li>
             </tags>
             <defaultOutfitTags>
@@ -319,6 +319,7 @@
             <li>ApparelMisc</li>
         </thingCategories>
         <statBases>
+            <MarketValue>3200</MarketValue>
             <MaxHitPoints>650</MaxHitPoints>
             <Mass>0.25</Mass>
             <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
@@ -341,7 +342,7 @@
                 <li>OnSkin</li>
             </layers>
             <tags>
-                <li>OCARINA_ApparelMantle</li>
+                <li>OCARINA_ApparelMantleArchotech</li>
             </tags>
             <defaultOutfitTags>
                 <li>Worker</li>

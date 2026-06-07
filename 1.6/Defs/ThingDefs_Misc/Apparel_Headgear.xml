@@ -10,7 +10,7 @@
         <tradeTags>
             <li>Clothing</li>
             <li>Armor</li>
-            <li>OCARINA_ApparelMantle</li>
+            <li>OCARINA_ApparelVisor</li>
         </tradeTags>
         <apparel>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -80,7 +80,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArchotechMantle/ArchotechMantle</wornGraphicPath>
             <tags>
-                <li>OCARINA_ApparelMantleArchotech</li>
+                <li>OCARINA_ApparelVisorArchotech</li>
             </tags>
         </apparel>
         <tradeTags Inherit="false">
@@ -156,7 +156,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantle/AegisciteMantle</wornGraphicPath>
             <tags>
-                <li>OCARINA_ApparelMantle</li>
+                <li>OCARINA_ApparelVisor</li>
             </tags>
         </apparel>
         <comps>
@@ -212,7 +212,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/IndustrialMantle/IndustrialMantle</wornGraphicPath>
             <tags>
-                <li>OCARINA_ApparelMantle</li>
+                <li>OCARINA_ApparelVisor</li>
             </tags>
         </apparel>
         <stuffCategories>
@@ -274,7 +274,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArmoredMantle/ArmoredMantle</wornGraphicPath>
             <tags>
-                <li>OCARINA_ApparelMantle</li>
+                <li>OCARINA_ApparelVisor</li>
             </tags>
         </apparel>
         <stuffCategories>
@@ -324,7 +324,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalMantle/TribalMantle</wornGraphicPath>
             <tags>
-                <li>OCARINA_ApparelMantle</li>
+                <li>OCARINA_ApparelVisor</li>
             </tags>
         </apparel>
         <stuffCategories>
