@@ -18,6 +18,8 @@ namespace MantledBeasts
             Pawn pawn = parms.pawn;
             if (pawn?.genes == null)
                 return false;
+            if (pawn.genes.CustomXenotype != null)
+                return pawn.genes.CustomXenotype.genes.Contains(DefsOf.OCARINA_MantledBeastsTail) == true;
             return pawn.genes.Xenotype?.AllGenes?.Contains(DefsOf.OCARINA_MantledBeastsTail) == true;
         }
     }
