@@ -4,7 +4,7 @@
     <ScenarioDef ParentName="Crashlanded">
         <defName>OCARINA_MantledBeastsCrashlanded</defName>
         <label>Unmantled beasts</label>
-        <description>The four of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. In the hurry, you couldn't reach your visors nor mantlegear from the storage facilities. You will have to find replacements as soon as possible.</description>
+        <description>The four of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. In the hurry, you couldn't reach your visors nor mantlegear from the storage facilities. You will have to find replacements as soon as possible.\n\nNote: Because Va'ji have terrible natural vision (10% sight capacity) this is an incredibly difficult starting scenario until you can start crafting industrial visors.</description>
         <scenario>
             <playerFaction>
                 <def>PlayerFaction</def>

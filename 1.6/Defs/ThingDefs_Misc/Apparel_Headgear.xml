@@ -76,6 +76,8 @@
             <ShootingAccuracyFactor_Long>0.46</ShootingAccuracyFactor_Long>
             <RangedCooldownFactor>0.5</RangedCooldownFactor>
             <PsychicSensitivity>0.42</PsychicSensitivity>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.80</VacuumResistance>
+            <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArchotechMantle/ArchotechMantle</wornGraphicPath>
@@ -132,6 +134,8 @@
             <ShootingAccuracyFactor_Medium>0.20</ShootingAccuracyFactor_Medium>
             <ShootingAccuracyFactor_Long>0.16</ShootingAccuracyFactor_Long>
             <RangedCooldownFactor>0.2</RangedCooldownFactor>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.6</VacuumResistance>
+            <ToxicEnvironmentResistance>0.6</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>AdvancedFabrication</researchPrerequisite>
@@ -166,7 +170,6 @@
                 </hediffDefnames>
             </li>
         </comps>
-
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
@@ -222,6 +225,13 @@
         <costList>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_IndustrialMantleHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
@@ -255,6 +265,8 @@
             <ShootingAccuracyFactor_Long>0.04</ShootingAccuracyFactor_Long>
             <RangedCooldownFactor>0.08</RangedCooldownFactor>
             <ResearchSpeedFactor>-0.20</ResearchSpeedFactor>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.6</VacuumResistance>
+            <ToxicEnvironmentResistance>0.6</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>Machining</researchPrerequisite>
@@ -285,6 +297,13 @@
             <Plasteel>25</Plasteel>
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_IndustrialMantleHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="OCARINA_MantledBeastsMantleBase">
