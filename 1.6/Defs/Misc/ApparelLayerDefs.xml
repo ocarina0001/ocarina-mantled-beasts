@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ApparelLayerDef>
+        <defName>OCARINA_UnderOnSkin</defName>
+        <label>skin</label>
+        <drawOrder>-1</drawOrder>
+    </ApparelLayerDef>
+
+</Defs>
