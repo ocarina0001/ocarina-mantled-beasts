@@ -16,7 +16,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4817-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -156,7 +156,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4817-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -296,7 +296,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4817-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -436,7 +436,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4817-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -576,7 +576,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4817-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -721,17 +721,17 @@
         "krafs.publicizer.nuspec"
       ]
     },
-    "Krafs.Rimworld.Ref/1.6.4817-beta": {
-      "sha512": "xKhLrTyz49zK3+gaO6t6N7zWgQKFG2EFCNB5ZGEaEs9RLh3CZ/JLtkpkysj8Zt30wYvE1WDJhpwPpBMvuM7Alg==",
+    "Krafs.Rimworld.Ref/1.6.4850": {
+      "sha512": "QcKiaIW76BsywnW32EegthVFtQIKT8x2TCj5vQV2kuGJdu1+T2/kZzV/xfdyCZMvezMKM103auJAhBDdQB2xSw==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.6.4817-beta",
+      "path": "krafs.rimworld.ref/1.6.4850",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
         "icon.png",
-        "krafs.rimworld.ref.1.6.4817-beta.nupkg.sha512",
+        "krafs.rimworld.ref.1.6.4850.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
@@ -904,9 +904,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Anthro.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\MantledBeasts.csproj",
       "projectName": "MantledBeasts",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\Anthro.csproj",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\MantledBeasts.csproj",
       "packagesPath": "C:\\Users\\Zachary\\.nuget\\packages\\",
       "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ocarina-mantled-beasts\\1.6\\Source\\obj\\",
       "projectStyle": "PackageReference",

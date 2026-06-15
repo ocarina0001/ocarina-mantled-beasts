@@ -21,7 +21,7 @@ namespace MantledBeasts
                         __result = furGene.GetGraphicOverriden(__result, __instance, pawn);
                 }
                 if (furGene == null && __instance.gene != null)
-                    if(__instance.gene.def.defName.StartsWith("OCARINA_"))
+                    if(__instance.gene.def.defName.StartsWith("OCARINA_MantledBeasts"))
                     {
                         __result = FurGene.GetGraphicOverridenNoFurgene(__result, __instance, pawn);
                     }

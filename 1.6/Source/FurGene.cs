@@ -160,7 +160,7 @@ namespace MantledBeasts
         {
             var color1 = PostProcessNoFurgene(source, pawn, pawn.story.HairColor);
             var color2 = new Color();
-            if ((source.gene.def.defName.StartsWith("OCARINA_") && source.gene.def.defName.EndsWith("Ears")))
+            if (source.gene.def.defName.StartsWith("OCARINA_MantledBeastsEars"))
                 color2 = PostProcessNoFurgene(source, pawn, pawn.story.SkinColor);
             else
             {
