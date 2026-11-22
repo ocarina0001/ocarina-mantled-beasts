@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <JobDef>
+        <defName>OCARINA_ChangeBeastFur</defName>
+        <driverClass>MantledBeasts.JobDriver_ChangeFur</driverClass>
+        <reportString>changing fur at TargetA.</reportString>
+    </JobDef>
+
+</Defs>

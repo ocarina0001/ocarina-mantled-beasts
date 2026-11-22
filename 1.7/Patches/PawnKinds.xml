@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/PawnKindDef[@Name="SpaceRefugeeBase" or @Name="SlaveBase"]/xenotypeSet/xenotypeChances</xpath>
+                <value>
+                    <OCARINA_MantledBeasts>0.0075</OCARINA_MantledBeasts>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd" MayRequire="WK.Spacefarers">
+                <xpath>Defs/PawnKindDef[defName="WK_Spacefarer_Grunt" or defName="WK_Spacefarer_Gunner" or defName="WK_Spacefarer_Sniper" or defName="WK_Spacefarer_Thumper" or defName="WK_Spacefarer_Marine" or defName="WK_Spacefarer_Grenadier" or defName="WK_Spacefarer_Jumper" or defName="WK_Spacefarer_Mechanitor"]/xenotypeSet/xenotypeChances</xpath>
+                <value>
+                    <OCARINA_MantledBeasts>0.0075</OCARINA_MantledBeasts>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>OCARINA_Apparel_TribalMantlegear</defName>
+        <tickerType>Normal</tickerType>
+        <label>tribal mantlegear</label>
+        <description>A set of fabric or leather body straps and a rudimentary wooden chest piece. Provides little protection in any meaningful capacity, but does make one feel stronger.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/TribalMantlegear/Naked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Neolithic</techLevel>
+        <costStuffCount>30</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <tradeability>Sellable</tradeability>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>800</WorkToMake>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+            <PainShockThreshold>0.15</PainShockThreshold>
+        </equippedStatOffsets>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalMantlegear/Naked</wornGraphicPath>
+            <layers>
+                <li>OCARINA_UnderOnSkin</li>
+            </layers>
+            <tags>
+                <li>Neolithic</li>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+                <li>Spacefarer</li>
+            </defaultOutfitTags>
+        </apparel>
+        <recipeMaker>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+                <li>CraftingSpot</li>
+            </recipeUsers>
+            <displayPriority>201</displayPriority>
+        </recipeMaker>
+        <costList>
+            <WoodLog>5</WoodLog>
+        </costList>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_TribalMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>OCARINA_Apparel_IndustrialMantlegear</defName>
+        <tickerType>Normal</tickerType>
+        <label>mantlegear</label>
+        <description>A set of fabric or leather body straps and an industrial chest piece. While not being as protective as something like a t-shirt, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <displayPriority>205</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/IndustrialMantlegear/Naked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>30</costStuffCount>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>300</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.15</Mass>
+            <StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.14</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.14</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.1</SocialImpact>
+            <MoveSpeed>0.05</MoveSpeed>
+            <GeneralLaborSpeed>0.07</GeneralLaborSpeed>
+            <WorkSpeedGlobal>0.07</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/IndustrialMantlegear/Naked</wornGraphicPath>
+            <layers>
+                <li>OCARINA_UnderOnSkin</li>
+            </layers>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+                <li>Spacefarer</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_IndustrialMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>OCARINA_Apparel_ArmoredMantlegear</defName>
+        <tickerType>Normal</tickerType>
+        <label>armored mantlegear</label>
+        <description>A set of fabric or leather body straps and an armored chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the armored mantlegear is generally more protective at the cost of the nicer bonuses that come with the industrial set.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <recipeMaker>
+            <researchPrerequisite>Machining</researchPrerequisite>
+            <displayPriority>205</displayPriority>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/ArmoredMantlegear/Naked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>10</Steel>
+        </costList>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>400</MarketValue>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>1200</WorkToMake>
+            <Mass>0.30</Mass>
+            <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.14</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.14</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.1</SocialImpact>
+            <MoveSpeed>0.05</MoveSpeed>
+            <ResearchSpeedFactor>-0.05</ResearchSpeedFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArmoredMantlegear/Naked</wornGraphicPath>
+            <layers>
+                <li>OCARINA_UnderOnSkin</li>
+            </layers>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+                <li>Spacefarer</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_ArmoredMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>OCARINA_Apparel_AegisciteMantlegear</defName>
+        <tickerType>Normal</tickerType>
+        <label>aegiscite mantlegear</label>
+        <description>A set of fabric or leather body straps and an advanced chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the aegiscite mantlegear is particularly capable, being effectively a combination of industrial and armored mantlegear.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <displayPriority>205</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/AegisciteMantlegear/Naked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>10</costStuffCount>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <OCARINA_Aegiscite>30</OCARINA_Aegiscite>
+        </costList>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>800</MarketValue>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>0.30</Mass>
+            <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.28</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.2</SocialImpact>
+            <MoveSpeed>0.1</MoveSpeed>
+            <GeneralLaborSpeed>0.12</GeneralLaborSpeed>
+            <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AegisciteMantlegear/Naked</wornGraphicPath>
+            <layers>
+                <li>OCARINA_UnderOnSkin</li>
+            </layers>
+            <tags>
+                <li>OCARINA_ApparelMantle</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+                <li>Spacefarer</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+        <tradeTags>
+            <li>BasicClothing</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_AegisciteMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ApparelBase">
+        <defName>OCARINA_Apparel_ArchotechMantlegear</defName>
+        <tickerType>Normal</tickerType>
+        <label>archotech mantlegear</label>
+        <description>A set of fabric or leather body straps and an advanced chest piece. While not being as protective as something like an actual piece of armor, mantlegear acts like a soft-exosuit, so to speak, improving the wearer's general movement abilities. In this case, the archotech mantlegear is, as the name implies, created by an archotech. It is a supreme upgrade compared to even the aegiscite mantlegear, and should be cherished.\n\nWhile mantlegear is traditionally worn by the Va'ji, any xenotype is capable of wearing it.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/ArchotechMantlegear/Naked</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <thingCategories>
+            <li>ApparelMisc</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>3200</MarketValue>
+            <MaxHitPoints>650</MaxHitPoints>
+            <Mass>0.25</Mass>
+            <!-- <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.48</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.48</StuffEffectMultiplierInsulation_Heat> -->
+
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.5</ArmorRating_Heat>
+            <Insulation_Cold>0.4</Insulation_Cold>
+            <Insulation_Heat>0.4</Insulation_Heat>
+
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.4</SocialImpact>
+            <MoveSpeed>0.3</MoveSpeed>
+            <GeneralLaborSpeed>0.32</GeneralLaborSpeed>
+            <WorkSpeedGlobal>0.32</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ArchotechMantlegear/Naked</wornGraphicPath>
+            <layers>
+                <li>OCARINA_UnderOnSkin</li>
+            </layers>
+            <tags>
+                <li>OCARINA_ApparelMantleArchotech</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+                <li>Spacefarer</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <tradeTags Inherit="false">
+            <li>Artifact</li>
+        </tradeTags>
+        <comps>
+            <li Class="VEF.Apparels.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>OCARINA_ArchotechMantlegearHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

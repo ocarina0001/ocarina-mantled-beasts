@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="OCARINA_MantledBeastsFur"]/modExtensions/li[@Class="MantledBeasts.FurColors"]/allowedFurColors</xpath>
+        <value>
+            <li>OCARINA_FurColor_Black</li>
+            <li>OCARINA_FurColor_Gray</li>
+            <li>OCARINA_FurColor_GrayLight</li>
+            <li>OCARINA_FurColor_GrayDark</li>
+            <li>OCARINA_FurColor_White</li>
+            <li>OCARINA_FurColor_Cream</li>
+            <li>OCARINA_FurColor_PaleBrown</li>
+            <li>OCARINA_FurColor_DeepBrown</li>
+            <li>OCARINA_FurColor_PaleTan</li>
+            <li>OCARINA_FurColor_DeepTan</li>
+            <li>OCARINA_FurColor_PaleOrange</li>
+            <li>OCARINA_FurColor_DeepOrange</li>
+            <li>OCARINA_FurColor_BurntOrange</li>
+            <li>OCARINA_FurColor_PaleBlue</li>
+            <li>OCARINA_FurColor_DeepBlue</li>
+            <li>OCARINA_FurColor_Purple</li>
+            <li>OCARINA_FurColor_PaleRed</li>
+            <li>OCARINA_FurColor_DeepRed</li>
+            <li>OCARINA_FurColor_Yellow</li>
+            <li>OCARINA_FurColor_PaleGreen</li>
+            <li>OCARINA_FurColor_DeepGreen</li>
+            <li>OCARINA_FurColor_Pink</li>
+        </value>
+    </Operation>
+
+</Patch>

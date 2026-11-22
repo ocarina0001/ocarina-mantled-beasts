@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="RockBase">
+        <defName>OCARINA_MineableAegiscite</defName>
+        <label>aegiscite</label>
+        <description>Aegiscite, a rare and durable material found exclusively on the planet Aegis. The presence of aegiscite meteors however, brings that up for debate. Aegiscite is incredibly flexible, capable of being used in just about any situation with a strength to match.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(95,145,210)</color>
+            <colorTwo>(200,30,170)</colorTwo>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>3000</MaxHitPoints>
+        </statBases>
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>OCARINA_Aegiscite</mineableThing>
+            <mineableYield>4</mineableYield>
+            <mineableScatterCommonality>0.00</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>0</mineableScatterLumpSizeRange>
+            <veinMineable>true</veinMineable>
+        </building>
+    </ThingDef>
+
+</Defs>

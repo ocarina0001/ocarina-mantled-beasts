@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>OCARINA_RawVajiMushroom</defName>
+        <label>raw aegiscian mushroom</label>
+        <description>Raw aegiscian mushroom.</description>
+        <possessionCount>10</possessionCount>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/RawVajiMushroom</texPath>
+        </graphicData>
+        <statBases>
+            <!-- because it's so difficult to farm and the mood bonus-->
+            <MarketValue>8.2</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>Fungus</foodType>
+            <specialThoughtAsIngredient>OCARINA_ConsumedVajiMushroom</specialThoughtAsIngredient>
+            <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <ingredient>
+            <mergeCompatibilityTags>
+                <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+            </mergeCompatibilityTags>
+        </ingredient>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>30</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

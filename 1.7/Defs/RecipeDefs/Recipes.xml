@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- <RecipeDef>
+        <defName>OCARINA_Make_IndustrialMantle</defName>
+        <label>make industrial visor</label>
+        <description>Make an industrial visor, meant for the Va'ji.</description>
+        <jobString>Refining an industrial visor.</jobString>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>ResourcesRaw</li>
+                    </categories>
+                    <disallowedThingDefs>
+                        <li>OCARINA_Aegiscite</li>
+                    </disallowedThingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>ResourcesRaw</li>
+            </categories>
+            <disallowedThingDefs>
+                <li>OCARINA_Aegiscite</li>
+            </disallowedThingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <categories>
+                <li>ResourcesRaw</li>
+            </categories>
+        </defaultIngredientFilter>
+        <products>
+            <OCARINA_Apparel_IndustrialMantle>1</OCARINA_Apparel_IndustrialMantle>
+        </products>
+    </RecipeDef> -->
+
+</Defs>

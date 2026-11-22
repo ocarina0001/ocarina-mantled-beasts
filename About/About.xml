@@ -5,6 +5,7 @@
     <!-- <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2902258418</url> -->
     <supportedVersions>
         <li>1.6</li>
+        <li>1.7</li>
     </supportedVersions>
     <packageId>ocarina.mantledbeasts</packageId>
     <description>This mod adds an underappreciated furry species known as Mantled Beasts, created by Honeymoss.</description>

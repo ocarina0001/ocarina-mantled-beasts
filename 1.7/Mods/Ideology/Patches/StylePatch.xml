@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>OCARINA_Apparel_AegisciteMantle</thingDef>
+                <styleDef>OCARINA_Techist_AegisciteMantle</styleDef>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

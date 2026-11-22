@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <FurDef>
+        <defName>OCARINA_MantledBeasts</defName>
+        <noGraphic>true</noGraphic>
+        <bodyTypeGraphicPaths>
+            <Male>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Male</Male>
+            <Female>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Female</Female>
+            <Hulk>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Hulk</Hulk>
+            <Fat>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Fat</Fat>
+            <Thin>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Thin</Thin>
+            <Child>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Child</Child>
+            <Baby>Things/Pawn/Humanlike/MantledBeasts/Bodies/Naked_Child</Baby>
+        </bodyTypeGraphicPaths>
+    </FurDef>
+
+</Defs>
