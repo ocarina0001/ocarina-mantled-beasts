@@ -15,13 +15,57 @@
             <li Class="HediffCompProperties_VerbGiver">
                 <tools>
                     <li>
-                        <label>claws</label>
+                        <label>claw</label>
                         <capacities>
-                            <li>Cut</li>
                             <li>Scratch</li>
+                            <li>Cut</li>
                         </capacities>
-                        <power>9</power>
-                        <cooldownTime>1.1</cooldownTime>
+                        <power>10.9</power>
+                        <cooldownTime>2</cooldownTime>
+                        <surpriseAttack>
+                            <extraMeleeDamages>
+                                <li>
+                                    <def>Stun</def>
+                                    <amount>14</amount>
+                                </li>
+                            </extraMeleeDamages>
+                        </surpriseAttack>
+                    </li>
+                </tools>
+            </li>
+        </comps>
+        <addedPartProps>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OCARINA_MantledBeastsJaw</defName>
+        <label>powerful jaw</label>
+        <description>Strengthened jaw bones and teeth.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <capacities>
+                            <li>Bite</li>
+                        </capacities>
+                        <power>12</power>
+                        <cooldownTime>2</cooldownTime>
+                        <surpriseAttack>
+                            <extraMeleeDamages>
+                                <li>
+                                    <def>Stun</def>
+                                    <amount>14</amount>
+                                </li>
+                            </extraMeleeDamages>
+                        </surpriseAttack>
                     </li>
                 </tools>
             </li>
@@ -46,12 +90,12 @@
                 <capMods>
                     <li>
                         <capacity>Sight</capacity>
-                        <offset>-0.45</offset>
+                        <offset>-0.20</offset>
                     </li>
                 </capMods>
                 <statFactors>
-                    <ShootingAccuracyFactor_Long>0.25</ShootingAccuracyFactor_Long>
-                    <ShootingAccuracyFactor_Medium>0.5</ShootingAccuracyFactor_Medium>
+                    <ShootingAccuracyFactor_Long>0.12</ShootingAccuracyFactor_Long>
+                    <ShootingAccuracyFactor_Medium>0.2</ShootingAccuracyFactor_Medium>
                 </statFactors>
             </li>
         </stages>

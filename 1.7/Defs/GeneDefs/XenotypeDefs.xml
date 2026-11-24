@@ -27,7 +27,8 @@
             <li>OCARINA_MantledBeastsPaws</li>
             <li>OCARINA_MantledBeastsEyesight</li>
             <li>OCARINA_MantledBeastsHair</li>
-            <li>MaxTemp_LargeIncrease</li>
+            <li>OCARINA_MantledBeastsJaw</li>
+            <li>OCARINA_MantledBeastsTemperature</li>
             <li>AG_Digitigrade</li>
             <li>AG_LargerBodySize</li>
             <li>AptitudeStrong_Intellectual</li>

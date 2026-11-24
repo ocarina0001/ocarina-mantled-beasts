@@ -47,6 +47,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="VEF">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\2023507013\1.7\Assemblies\VEF.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Publicizer" Version="2.*">
@@ -67,7 +71,11 @@
     <Compile Include="CompProperties_GasOverTime.cs" />
     <Compile Include="DefModExtension_ClothingRestriction.cs" />
     <Compile Include="FurGene.cs" />
+    <Compile Include="GameComponent_OnceAppliedGenes.cs" />
+    <Compile Include="GeneExtension.cs" />
+    <Compile Include="GeneExtensionHandler.cs" />
     <Compile Include="Patch_Apparel_WornGraphicPath.cs" />
+    <Compile Include="Patch_Gene_PostAdd.cs" />
     <Compile Include="PawnGenerator_GeneratePawn_Patch.cs" />
     <Compile Include="Patch_CanEquip.cs" />
     <Compile Include="PawnRenderNodeWorker_AttachmentBody_GeneLockClothingColored.cs" />

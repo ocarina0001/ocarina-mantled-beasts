@@ -34,9 +34,7 @@
         </structureMemeWeights>
         <xenotypeSet>
             <xenotypeChances>
-                <OCARINA_MantledBeasts>0.85</OCARINA_MantledBeasts>
-                <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.05</Starjack>
-                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.05</Yttakin>
+                <OCARINA_MantledBeasts>999</OCARINA_MantledBeasts>
             </xenotypeChances>
         </xenotypeSet>
         <backstoryFilters>
@@ -94,7 +92,6 @@
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <OCARINA_MantledBeastsVillager>20</OCARINA_MantledBeastsVillager>
-                    <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
                     <OCARINA_MantledBeastsTown_Guard>10</OCARINA_MantledBeastsTown_Guard>
                     <OCARINA_MantledBeastsTown_Councilman>10</OCARINA_MantledBeastsTown_Councilman>
                 </options>

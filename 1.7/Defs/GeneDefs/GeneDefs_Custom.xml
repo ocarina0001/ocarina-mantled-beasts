@@ -8,22 +8,22 @@
         <iconPath>UI/Icons/Genes/Gene_MantledBeastsPaws</iconPath>
         <displayOrderInCategory>320</displayOrderInCategory>
         <biostatCpx>4</biostatCpx>
-        <biostatMet>-3</biostatMet>
+        <biostatMet>-2</biostatMet>
         <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
         <capMods>
             <li>
                 <capacity>Manipulation</capacity>
-                <postFactor>0.90</postFactor>
+                <postFactor>0.95</postFactor>
             </li>
         </capMods>
         <statOffsets>
-            <HuntingStealth>0.35</HuntingStealth>
-            <MoveSpeed>0.1</MoveSpeed>
+            <HuntingStealth>0.17</HuntingStealth>
+            <MoveSpeed>0.05</MoveSpeed>
         </statOffsets>
         <statFactors>
-            <MoveSpeed>1.25</MoveSpeed>
-            <VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
-            <CarryingCapacity>0.5</CarryingCapacity>
+            <MoveSpeed>1.1</MoveSpeed>
+            <VEF_MassCarryCapacity>0.80</VEF_MassCarryCapacity>
+            <CarryingCapacity>0.80</CarryingCapacity>
         </statFactors>
         <symbolPack>
             <prefixSymbols>
@@ -33,10 +33,10 @@
             </prefixSymbols>
         </symbolPack>
         <modExtensions>
-            <li Class="VEF.Genes.GeneExtension">
+            <li Class="MantledBeasts.GeneExtension">
                 <backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
                 <backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-                <hediffsToBodyParts>
+                <hediffsToBodyPartsOnce>
                     <li>
                         <hediff>OCARINA_MantledBeastsPaws</hediff>
                         <bodyparts>
@@ -44,7 +44,7 @@
                             <li>Hand</li>
                         </bodyparts>
                     </li>
-                </hediffsToBodyParts>
+                </hediffsToBodyPartsOnce>
             </li>
         </modExtensions>
     </GeneDef>
@@ -91,10 +91,10 @@
             </suffixSymbols>
         </symbolPack>
         <modExtensions>
-            <li Class="VEF.Genes.GeneExtension">
+            <li Class="MantledBeasts.GeneExtension">
                 <backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
                 <backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
-                <hediffsToBodyParts>
+                <hediffsToBodyPartsOnce>
                     <li>
                         <hediff>OCARINA_MantledBeastsEyesight</hediff>
                         <bodyparts>
@@ -102,11 +102,59 @@
                             <li>Eye</li>
                         </bodyparts>
                     </li>
-                </hediffsToBodyParts>
+                </hediffsToBodyPartsOnce>
             </li>
         </modExtensions>
     </GeneDef>
 
+    <GeneDef ParentName="GeneJawBase">
+        <defName>OCARINA_MantledBeastsJaw</defName>
+        <label>va'ji jaw</label>
+        <description>Strong, elongated jaw muscles and bone that allow the Va'ji to have the equivalent bite force of a wolf, ranking about 400 PSI.</description>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsJaw</iconPath>
+        <displayOrderInCategory>320</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <displayCategory>OCARINA_Cosmetic_MantledBeasts</displayCategory>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wolfish</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <modExtensions>
+            <li Class="MantledBeasts.GeneExtension">
+                <backgroundPathEndogenes>UI/Icons/Genes/AG_Endogenes</backgroundPathEndogenes>
+                <backgroundPathXenogenes>UI/Icons/Genes/AG_Xenogenes</backgroundPathXenogenes>
+                <hediffsToBodyPartsOnce>
+                    <li>
+                        <hediff>OCARINA_MantledBeastsJaw</hediff>
+                        <bodyparts>
+                            <li>Jaw</li>
+                        </bodyparts>
+                    </li>
+                </hediffsToBodyPartsOnce>
+            </li>
+        </modExtensions>
+    </GeneDef>
 
+    <GeneDef>
+        <defName>OCARINA_MantledBeastsTemperature</defName>
+        <label>va'ji thermophilia</label>
+        <description>Carriers of this gene are more comfortable in both hot and cold temperatures.</description>
+        <iconPath>UI/Icons/Genes/Gene_MantledBeastsTemperature</iconPath>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <statOffsets>
+            <ComfyTemperatureMin>-14</ComfyTemperatureMin>
+            <ComfyTemperatureMax>14</ComfyTemperatureMax>
+        </statOffsets>
+        <biostatMet>-3</biostatMet>
+        <displayCategory>Temperature</displayCategory>
+        <exclusionTags>
+            <li>MaxTemperature</li>
+            <li>MinTemperature</li>
+        </exclusionTags>
+    </GeneDef>
 
 </Defs>
